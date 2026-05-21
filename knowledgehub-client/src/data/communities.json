@@ -31,7 +31,7 @@
         "th": "ทีมผู้ก่อตั้ง DOT DOT",
         "en": "DOT DOT Founding Team"
       },
-      "image": "/images/communities/dot-dot-cafe-community/leader.jpg",
+      "image": "images/communities/dot-dot-cafe-community/leader.jpg",
       "role": {
         "th": "ผู้ก่อตั้งและดูแลพื้นที่ชุมชน",
         "en": "Founders & Community Space Curators"
@@ -66,7 +66,7 @@
           "th": "เปิดพื้นที่ริมคลองในกรุงเทพฯ ในฐานะคาเฟ่ชุมชนที่เชื่อมผู้คนผ่านกิจกรรม ศิลปะ และเรื่องเล่า",
           "en": "Opened a canalside community café in Bangkok, connecting people through activities, art, and shared stories"
         },
-        "image": "/images/communities/dot-dot-cafe-community/timeline-1.jpg"
+        "image": "images/communities/dot-dot-cafe-community/timeline-1.jpg"
       },
       {
         "year": "2025",
@@ -78,7 +78,7 @@
           "th": "จัดงานสามวันรวมนิทรรศการฟื้นป่าน่าน เวิร์กชอป Eco-Print, Art & Craft, Contemplative Art, กิจกรรม My Dot Card, Bar Cha ชาต้นพันปี และดนตรีสดริมคลอง",
           "en": "Three-day festival combining the Nan forest restoration exhibition, Eco-Print, Art & Craft, Contemplative Art workshops, My Dot Card community activity, ancient-tree Bar Cha, and canalside live music"
         },
-        "image": "/images/communities/dot-dot-cafe-community/timeline-2.jpg"
+        "image": "images/communities/dot-dot-cafe-community/timeline-2.jpg"
       }
     ],
     "videos": [
@@ -88,7 +88,7 @@
           "en": "Connect the Dot — Nan Forest Restoration Exhibition"
         },
         "url": "https://www.facebook.com/profile.php?id=61586116156707",
-        "thumbnail": "/images/communities/dot-dot-cafe-community/video-1-thumb.jpg"
+        "thumbnail": "images/communities/dot-dot-cafe-community/video-1-thumb.jpg"
       }
     ],
     "members": [
@@ -101,7 +101,7 @@
           "th": "วิทยากรเวิร์กชอป Eco-Print",
           "en": "Eco-Print Workshop Facilitator"
         },
-        "photo": "/images/communities/dot-dot-cafe-community/member-pok.jpg",
+        "photo": "images/communities/dot-dot-cafe-community/member-pok.jpg",
         "expertise": [
           {
             "th": "การพิมพ์ลายธรรมชาติด้วย Eco-Print",
@@ -122,7 +122,7 @@
           "th": "วิทยากรเวิร์กชอป Art & Craft",
           "en": "Art & Craft Workshop Facilitator"
         },
-        "photo": "/images/communities/dot-dot-cafe-community/member-judy.jpg",
+        "photo": "images/communities/dot-dot-cafe-community/member-judy.jpg",
         "expertise": [
           {
             "th": "งานดอกไม้ประดิษฐ์และของตกแต่ง",
@@ -143,7 +143,7 @@
           "th": "พันธมิตรด้านการอนุรักษ์ป่าและชา Bar Cha",
           "en": "Forest Conservation Partner & Bar Cha Co-host"
         },
-        "photo": "/images/communities/dot-dot-cafe-community/member-association.jpg",
+        "photo": "images/communities/dot-dot-cafe-community/member-association.jpg",
         "expertise": [
           {
             "th": "การฟื้นฟูป่าน่านและการมีส่วนร่วมของคนเมือง",
@@ -160,15 +160,15 @@
         ]
       }
     ],
-    "image": "/images/communities/dot-dot-cafe-community/cover.jpg",
+    "image": "images/communities/dot-dot-cafe-community/cover.jpg",
     "images": [
-      "/images/communities/dot-dot-cafe-community/gallery-my-dot-card.jpg",
-      "/images/communities/dot-dot-cafe-community/gallery-eco-print.jpg",
-      "/images/communities/dot-dot-cafe-community/gallery-art-craft.jpg",
-      "/images/communities/dot-dot-cafe-community/gallery-contemplative-art.jpg",
-      "/images/communities/dot-dot-cafe-community/gallery-exhibition.jpg",
-      "/images/communities/dot-dot-cafe-community/gallery-live-music.jpg",
-      "/images/communities/dot-dot-cafe-community/gallery-bar-cha.jpg"
+      "images/communities/dot-dot-cafe-community/gallery-my-dot-card.jpg",
+      "images/communities/dot-dot-cafe-community/gallery-eco-print.jpg",
+      "images/communities/dot-dot-cafe-community/gallery-art-craft.jpg",
+      "images/communities/dot-dot-cafe-community/gallery-contemplative-art.jpg",
+      "images/communities/dot-dot-cafe-community/gallery-exhibition.jpg",
+      "images/communities/dot-dot-cafe-community/gallery-live-music.jpg",
+      "images/communities/dot-dot-cafe-community/gallery-bar-cha.jpg"
     ],
     "stats": {
       "members": null,
@@ -216,7 +216,7 @@
         "th": "คณะผู้บริหาร TOGA",
         "en": "TOGA Executive Committee"
       },
-      "image": "/images/communities/toga-thai-trade-innovation/leader.jpg",
+      "image": "images/communities/toga-thai-trade-innovation/leader.jpg",
       "role": {
         "th": "นายกสมาคมและคณะผู้บริหาร",
         "en": "Association President & Executive Committee"
@@ -251,7 +251,7 @@
           "th": "ก่อตั้งสมาคมการค้าและนวัตกรรมไทยสู่สากล (TOGA) เพื่อเชื่อมผู้ประกอบการไทยกับตลาดโลก โดยเฉพาะภูมิภาคตะวันออกกลาง",
           "en": "Founded TOGA to bridge Thai entrepreneurs with global markets, with a primary focus on the Middle East region"
         },
-        "image": "/images/communities/toga-thai-trade-innovation/timeline-1.jpg"
+        "image": "images/communities/toga-thai-trade-innovation/timeline-1.jpg"
       },
       {
         "year": "2024",
@@ -263,7 +263,7 @@
           "th": "เปิดตัวโปรแกรม Business Matching ครั้งแรกสู่ซาอุดีอาระเบีย นำผู้ประกอบการไทยเข้าพบนักธุรกิจและสำรวจตลาดในริยาด",
           "en": "Launched inaugural Business Matching trip to Saudi Arabia, taking Thai entrepreneurs to meet business executives and survey markets in Riyadh"
         },
-        "image": "/images/communities/toga-thai-trade-innovation/timeline-2.jpg"
+        "image": "images/communities/toga-thai-trade-innovation/timeline-2.jpg"
       },
       {
         "year": "2025",
@@ -275,7 +275,7 @@
           "th": "ขยายโปรแกรมสู่ 2 ประเทศ 3 เมือง (ริยาด – ดัมมาม – มานามา) 3–7 ธันวาคม 2568 รวม Thai Festival in Bahrain 2025 และ VIP Networking กับนักธุรกิจชั้นนำจากทั้งสองประเทศ",
           "en": "Expanded programme to 2 countries and 3 cities (Riyadh – Dammam – Manama), 3–7 December 2025, including Thai Festival in Bahrain 2025 and VIP Networking with top executives from both countries"
         },
-        "image": "/images/communities/toga-thai-trade-innovation/timeline-3.jpg"
+        "image": "images/communities/toga-thai-trade-innovation/timeline-3.jpg"
       }
     ],
     "videos": [
@@ -285,7 +285,7 @@
           "en": "4 Reasons to Enter the Middle East Market Now"
         },
         "url": "https://www.youtube.com/watch?v=PLACEHOLDER",
-        "thumbnail": "/images/communities/toga-thai-trade-innovation/video-1-thumb.jpg"
+        "thumbnail": "images/communities/toga-thai-trade-innovation/video-1-thumb.jpg"
       }
     ],
     "members": [
@@ -298,7 +298,7 @@
           "th": "ผู้ประสานงานโครงการ",
           "en": "Programme Coordinator"
         },
-        "photo": "/images/communities/toga-thai-trade-innovation/member-1.jpg",
+        "photo": "images/communities/toga-thai-trade-innovation/member-1.jpg",
         "expertise": [
           {
             "th": "การประสานงาน Business Matching",
@@ -319,7 +319,7 @@
           "th": "ผู้ประสานงานโครงการ",
           "en": "Programme Coordinator"
         },
-        "photo": "/images/communities/toga-thai-trade-innovation/member-2.jpg",
+        "photo": "images/communities/toga-thai-trade-innovation/member-2.jpg",
         "expertise": [
           {
             "th": "การประสานงาน Business Matching",
@@ -332,14 +332,14 @@
         ]
       }
     ],
-    "image": "/images/communities/toga-thai-trade-innovation/cover.jpg",
+    "image": "images/communities/toga-thai-trade-innovation/cover.jpg",
     "images": [
-      "/images/communities/toga-thai-trade-innovation/gallery-riyadh.jpg",
-      "/images/communities/toga-thai-trade-innovation/gallery-boulevard-world.jpg",
-      "/images/communities/toga-thai-trade-innovation/gallery-ithra-cultural-center.jpg",
-      "/images/communities/toga-thai-trade-innovation/gallery-business-matching.jpg",
-      "/images/communities/toga-thai-trade-innovation/gallery-thai-festival-bahrain.jpg",
-      "/images/communities/toga-thai-trade-innovation/gallery-manama-souk.jpg"
+      "images/communities/toga-thai-trade-innovation/gallery-riyadh.jpg",
+      "images/communities/toga-thai-trade-innovation/gallery-boulevard-world.jpg",
+      "images/communities/toga-thai-trade-innovation/gallery-ithra-cultural-center.jpg",
+      "images/communities/toga-thai-trade-innovation/gallery-business-matching.jpg",
+      "images/communities/toga-thai-trade-innovation/gallery-thai-festival-bahrain.jpg",
+      "images/communities/toga-thai-trade-innovation/gallery-manama-souk.jpg"
     ],
     "stats": {
       "members": null,

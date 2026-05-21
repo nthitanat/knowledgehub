@@ -26,9 +26,9 @@
     "weight": null,
     "certifications": [],
     "images": [
-      "/images/products/toga/business-matching-2025-cover.jpg",
-      "/images/products/toga/business-matching-2025-itinerary.jpg",
-      "/images/products/toga/business-matching-2025-reasons.jpg"
+      "images/products/toga/business-matching-2025-cover.jpg",
+      "images/products/toga/business-matching-2025-itinerary.jpg",
+      "images/products/toga/business-matching-2025-reasons.jpg"
     ],
     "itinerary": [
       {
@@ -199,7 +199,7 @@
     "weight": null,
     "certifications": [],
     "images": [
-      "/images/products/index-creative-village/mega-fair-riyadh-2025.jpg"
+      "images/products/index-creative-village/mega-fair-riyadh-2025.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -261,8 +261,8 @@
       "High Quality Standard"
     ],
     "images": [
-      "/images/products/chiangmai-bioveggie/maneemanao-frozen-lime-juice-1.jpg",
-      "/images/products/chiangmai-bioveggie/maneemanao-frozen-lime-juice-2.jpg"
+      "images/products/chiangmai-bioveggie/maneemanao-frozen-lime-juice-1.jpg",
+      "images/products/chiangmai-bioveggie/maneemanao-frozen-lime-juice-2.jpg"
     ],
     "localization": {
       "targetMarkets": [
