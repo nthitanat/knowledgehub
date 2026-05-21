@@ -11,8 +11,8 @@ export default function Landing() {
   const content = {
     hero: {
       title: {
-        th: 'Knowledge and Innovation Hub for Glocal Marketing',
-        en: 'Knowledge and Innovation Hub for Glocal Marketing'
+        th: 'Chulalongkorn\'s Knowledge and Innovation Hub for Glocal Marketing',
+        en: 'Chulalongkorn\'s Knowledge and Innovation Hub for Glocal Marketing'
       },
       subtitle: {
         th: 'แพลตฟอร์มรวมความรู้เกี่ยวกับสินค้าชุมชน เพื่อเล่าเรื่อง community ออกแบบ prototype ร่วมกัน และ Localize สินค้าไทยให้เหมาะกับตลาดสากล',
