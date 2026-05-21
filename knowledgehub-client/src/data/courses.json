@@ -1,0 +1,924 @@
+[
+  {
+    "id": "course-001",
+    "communityId": "ban-tai-lue-weaving",
+    "title": {
+      "th": "เรียนรู้การทอผ้าไทลื้อเบื้องต้น",
+      "en": "Introduction to Tai Lue Weaving"
+    },
+    "description": {
+      "th": "เรียนรู้พื้นฐานการทอผ้าไทลื้อ ตั้งแต่การเตรียมด้าย การย้อมสีธรรมชาติ ไปจนถึงเทคนิคการทอลายง่าย ๆ เหมาะสำหรับผู้เริ่มต้น",
+      "en": "Learn the basics of Tai Lue weaving from yarn preparation, natural dyeing, to simple pattern weaving techniques. Perfect for beginners."
+    },
+    "fullDescription": {
+      "th": "หลักสูตรนี้จะพาคุณเข้าสู่โลกแห่งการทอผ้าไทลื้อ ซึ่งเป็นมรดกทางวัฒนธรรมที่สืบทอดมาหลายชั่วอายุคน คุณจะได้เรียนรู้ตั้งแต่พื้นฐานการทอผ้า ความเป็นมาและความหมายของลายผ้า ไปจนถึงการปฏิบัติจริงในทุกขั้นตอน\n\nในหลักสูตรนี้ คุณจะได้สัมผัสกับวิถีชีวิตของชาวไทลื้อ เรียนรู้การเลือกและเตรียมด้าย การย้อมสีด้วยสีธรรมชาติจากพืช และฝึกทอผ้าด้วยมือบนกี่ทอแบบดั้งเดิม ผู้สอนคือช่างทอมืออาชีพที่มีประสบการณ์กว่า 20 ปี พร้อมถ่ายทอดเคล็ดลับและเทคนิคต่างๆ ที่ไม่มีในตำรา\n\nเหมาะสำหรับผู้ที่สนใจงานหัตถกรรม ต้องการเรียนรู้วัฒนธรรมไทย หรือมองหาแนวทางในการประกอบอาชีพ",
+      "en": "This course introduces you to the world of Tai Lue weaving, a cultural heritage passed down through generations. You'll learn everything from weaving fundamentals, the history and meaning of fabric patterns, to hands-on practice in every step.\n\nIn this course, you'll experience the Tai Lue way of life, learn to select and prepare yarn, dye with natural plant colors, and practice weaving on traditional looms. The instructor is a professional weaver with over 20 years of experience, ready to share tips and techniques not found in textbooks.\n\nPerfect for those interested in handicrafts, wanting to learn Thai culture, or looking for career opportunities."
+    },
+    "learningObjectives": [
+      { "th": "เข้าใจประวัติและความสำคัญของผ้าไทลื้อ", "en": "Understand the history and significance of Tai Lue fabric" },
+      { "th": "สามารถเตรียมด้ายและย้อมสีธรรมชาติได้", "en": "Able to prepare yarn and use natural dyeing" },
+      { "th": "ฝึกทอผ้าลายง่ายบนกี่ทอด้วยตนเอง", "en": "Practice weaving simple patterns on traditional looms" },
+      { "th": "รู้จักวัฒนธรรมและวิถีชีวิตชาวไทลื้อ", "en": "Learn about Tai Lue culture and lifestyle" },
+      { "th": "ได้รับใบประกาศนียบัตรหลังจบหลักสูตร", "en": "Receive a certificate upon course completion" }
+    ],
+    "prerequisites": {
+      "th": "ไม่จำเป็นต้องมีพื้นฐาน เหมาะสำหรับผู้เริ่มต้น มีความสนใจในงานหัตถกรรมและวัฒนธรรมไทย",
+      "en": "No prior experience required. Suitable for beginners with interest in handicrafts and Thai culture."
+    },
+    "requirements": {
+      "th": "ผู้เรียนควรมีความอดทนและใส่ใจในรายละเอียด เนื่องจากการทอผ้าต้องใช้ความละเอียดและเวลา",
+      "en": "Learners should have patience and attention to detail, as weaving requires precision and time."
+    },
+    "curriculum": [
+      {
+        "sectionId": 1,
+        "title": { "th": "ความรู้พื้นฐานเกี่ยวกับผ้าไทลื้อ", "en": "Fundamentals of Tai Lue Fabric" },
+        "duration": "2 hours",
+        "lessons": [
+          {
+            "lessonId": 1,
+            "title": { "th": "ประวัติและความเป็นมาของผ้าไทลื้อ", "en": "History and Origin of Tai Lue Fabric" },
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-1-1.jpg",
+            "isPreview": true
+          },
+          {
+            "lessonId": 2,
+            "title": { "th": "ความหมายของลายผ้าไทลื้อ", "en": "Meaning of Tai Lue Patterns" },
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-1-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 3,
+            "title": { "th": "แบบทดสอบบทที่ 1", "en": "Chapter 1 Quiz" },
+            "type": "quiz",
+            "duration": "15 min",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 2,
+        "title": { "th": "การเตรียมวัสดุและการย้อมสี", "en": "Material Preparation and Dyeing" },
+        "duration": "2 hours",
+        "lessons": [
+          {
+            "lessonId": 4,
+            "title": { "th": "การเลือกและเตรียมด้าย", "en": "Yarn Selection and Preparation" },
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-2-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 5,
+            "title": { "th": "การย้อมสีธรรมชาติจากพืช", "en": "Natural Plant-Based Dyeing" },
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-2-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 6,
+            "title": { "th": "เอกสารประกอบ: สีธรรมชาติจากพืชไทย", "en": "Reading: Natural Colors from Thai Plants" },
+            "type": "reading",
+            "duration": "20 min",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 3,
+        "title": { "th": "เทคนิคการทอพื้นฐาน", "en": "Basic Weaving Techniques" },
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "lessonId": 7,
+            "title": { "th": "การตั้งกี่และการร้อยด้าย", "en": "Loom Setup and Threading" },
+            "type": "video",
+            "duration": "60 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-3-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 8,
+            "title": { "th": "การทอผ้าพื้นฐาน", "en": "Basic Weaving" },
+            "type": "video",
+            "duration": "75 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-3-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 9,
+            "title": { "th": "เทคนิคการทอลายง่าย", "en": "Simple Pattern Weaving Techniques" },
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-3-3.jpg",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 4,
+        "title": { "th": "การตกแต่งและเก็บรักษา", "en": "Finishing and Care" },
+        "duration": "1 hour",
+        "lessons": [
+          {
+            "lessonId": 10,
+            "title": { "th": "การตกแต่งและแต่งชายผ้า", "en": "Finishing and Edge Decoration" },
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-4-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 11,
+            "title": { "th": "การดูแลและเก็บรักษาผ้าทอ", "en": "Fabric Care and Storage" },
+            "type": "video",
+            "duration": "20 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/weaving-4-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 12,
+            "title": { "th": "สรุปและแนวทางต่อยอด", "en": "Summary and Further Development" },
+            "type": "reading",
+            "duration": "10 min",
+            "isPreview": false
+          }
+        ]
+      }
+    ],
+    "instructor": {
+      "name": {
+        "th": "นางสาวภัทรินทร์ ใจดี",
+        "en": "Ms. Pattarin Jaidee"
+      },
+      "title": {
+        "th": "ช่างทอมืออาชีพ",
+        "en": "Professional Weaver"
+      },
+      "avatar": "/images/communities/ban-tai-lue/leader.jpg",
+      "bio": {
+        "th": "ภัทรินทร์เป็นช่างทอผ้าไทลื้อมืออาชีพที่มีประสบการณ์มากกว่า 20 ปี สำเร็จการศึกษาจากจุฬาลงกรณ์มหาวิทยาลัย คณะศิลปศาสตร์ และกลับมาอนุรักษ์ภูมิปัญญาการทอผ้าของชุมชนบ้านเกิด เธอเป็นผู้นำกลุ่มทอผ้าบ้านสันต้นหมื้อ และได้รับรางวัลช่างฝีมือดีเด่นแห่งชาติ ปัจจุบันเป็นวิทยากรพิเศษในโครงการอนุรักษ์ภูมิปัญญาท้องถิ่นร่วมกับจุฬาฯ",
+        "en": "Pattarin is a professional Tai Lue weaver with over 20 years of experience. She graduated from Chulalongkorn University, Faculty of Arts, and returned to preserve her community's weaving wisdom. She leads the Ban San Ton Mue Weaving Group and has received the National Outstanding Artisan Award. Currently, she is a guest lecturer in local wisdom preservation projects with Chulalongkorn University."
+      },
+      "affiliation": "Ban San Ton Mue Tai Lue Weaving Group",
+      "coursesCount": 2,
+      "studentsCount": 245,
+      "rating": 4.8,
+      "socialLinks": {
+        "facebook": "https://facebook.com/pattarin.weaver",
+        "website": "https://bansantonmue.com"
+      }
+    },
+    "duration": {
+      "hours": 8,
+      "sessions": 4
+    },
+    "level": "beginner",
+    "language": ["th", "en"],
+    "price": {
+      "amount": 3500,
+      "currency": "THB"
+    },
+    "topics": [
+      {
+        "th": "ประวัติและความเป็นมาของผ้าไทลื้อ",
+        "en": "History and origin of Tai Lue fabric"
+      },
+      {
+        "th": "การเตรียมด้ายและเครื่องมือ",
+        "en": "Yarn and tool preparation"
+      },
+      {
+        "th": "การย้อมสีจากธรรมชาติ",
+        "en": "Natural dyeing techniques"
+      },
+      {
+        "th": "เทคนิคการทอพื้นฐาน",
+        "en": "Basic weaving techniques"
+      }
+    ],
+    "certificate": true,
+    "maxStudents": 15,
+    "thumbnail": "/images/courses/weaving-101.jpg",
+    "featured": true,
+    "rating": 4.8,
+    "studentsEnrolled": 127
+  },
+  {
+    "id": "course-002",
+    "communityId": "coconut-sugar-lampang",
+    "title": {
+      "th": "กระบวนการผลิตน้ำตาลมะพร้าวออร์แกนิค",
+      "en": "Organic Coconut Sugar Production Process"
+    },
+    "description": {
+      "th": "เรียนรู้ทุกขั้นตอนการผลิตน้ำตาลมะพร้าวแบบออร์แกนิค ตั้งแต่การเก็บน้ำหวาน การต้ม ไปจนถึงการบรรจุและเก็บรักษา พร้อมเทคนิคการควบคุมคุณภาพ",
+      "en": "Learn every step of organic coconut sugar production from nectar collection, boiling, to packaging and storage, including quality control techniques."
+    },
+    "fullDescription": {
+      "th": "หลักสูตรการผลิตน้ำตาลมะพร้าวออร์แกนิค สอนโดยเกษตรกรมืออาชีพที่ได้รับการรับรองมาตรฐานออร์แกนิคระดับสากล คุณจะได้เรียนรู้ทั้งทฤษฎีและปฏิบัติจริงในสวนมะพร้าว\n\nน้ำตาลมะพร้าวเป็นทางเลือกที่ดีต่อสุขภาพสำหรับผู้ที่ต้องการลดการบริโภคน้ำตาลทรายปกติ ด้วยค่า Glycemic Index ที่ต่ำและมีแร่ธาตุที่เป็นประโยชน์ ตลาดโลกสำหรับน้ำตาลมะพร้าวกำลังเติบโตอย่างรวดเร็ว โดยเฉพาะในกลุ่มประเทศที่ใส่ใจสุขภาพ\n\nในหลักสูตรนี้ คุณจะได้เรียนรู้การดูแลต้นมะพร้าวแบบออร์แกนิค เทคนิคการเก็บน้ำหวานที่ถูกวิธี กระบวนการต้มที่ควบคุมคุณภาพ และมาตรฐานการบรรจุที่ได้มาตรฐานสากล เหมาะสำหรับผู้ที่ต้องการเริ่มต้นธุรกิจหรือเพิ่มมูลค่าผลผลิตจากสวนมะพร้าว",
+      "en": "Organic coconut sugar production course taught by professional farmers with international organic certification. You'll learn both theory and hands-on practice in coconut farms.\n\nCoconut sugar is a healthier alternative for those wanting to reduce regular sugar consumption, with low Glycemic Index and beneficial minerals. The global market for coconut sugar is growing rapidly, especially in health-conscious countries.\n\nIn this course, you'll learn organic coconut tree care, proper nectar collection techniques, quality-controlled boiling processes, and international packaging standards. Perfect for those wanting to start a business or add value to coconut farm products."
+    },
+    "learningObjectives": [
+      { "th": "เข้าใจกระบวนการผลิตน้ำตาลมะพร้าวทั้งหมด", "en": "Understand the complete coconut sugar production process" },
+      { "th": "สามารถเก็บน้ำหวานมะพร้าวอย่างถูกวิธี", "en": "Able to collect coconut nectar properly" },
+      { "th": "เรียนรู้เทคนิคการต้มและควบคุมคุณภาพ", "en": "Learn boiling and quality control techniques" },
+      { "th": "รู้มาตรฐานการบรรจุและการรับรองออร์แกนิค", "en": "Know packaging standards and organic certification" },
+      { "th": "สามารถเริ่มต้นธุรกิจน้ำตาลมะพร้าวได้", "en": "Able to start a coconut sugar business" }
+    ],
+    "prerequisites": {
+      "th": "ไม่จำเป็นต้องมีพื้นฐาน แต่หากมีสวนมะพร้าวจะเป็นประโยชน์มาก",
+      "en": "No prior experience required, but having a coconut farm would be beneficial."
+    },
+    "requirements": {
+      "th": "ควรสามารถปฏิบัติงานกลางแจ้งและยืนทำงานได้นาน รองเท้าและเสื้อผ้าสำหรับทำงานในสวน",
+      "en": "Should be able to work outdoors and stand for extended periods. Work shoes and farm-appropriate clothing required."
+    },
+    "curriculum": [
+      {
+        "sectionId": 1,
+        "title": { "th": "บทนำและภาพรวมตลาด", "en": "Introduction and Market Overview" },
+        "duration": "1.5 hours",
+        "lessons": [
+          {
+            "lessonId": 1,
+            "title": { "th": "ภาพรวมตลาดน้ำตาลมะพร้าว", "en": "Coconut Sugar Market Overview" },
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-1-1.jpg",
+            "isPreview": true
+          },
+          {
+            "lessonId": 2,
+            "title": { "th": "คุณค่าทางโภชนาการและประโยชน์", "en": "Nutritional Value and Benefits" },
+            "type": "reading",
+            "duration": "20 min",
+            "isPreview": false
+          },
+          {
+            "lessonId": 3,
+            "title": { "th": "มาตรฐานออร์แกนิคและการรับรอง", "en": "Organic Standards and Certification" },
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-1-2.jpg",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 2,
+        "title": { "th": "การดูแลต้นมะพร้าว", "en": "Coconut Tree Care" },
+        "duration": "1.5 hours",
+        "lessons": [
+          {
+            "lessonId": 4,
+            "title": { "th": "การดูแลต้นมะพร้าวแบบออร์แกนิค", "en": "Organic Coconut Tree Care" },
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-2-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 5,
+            "title": { "th": "การป้องกันโรคและแมลงแบบธรรมชาติ", "en": "Natural Pest and Disease Control" },
+            "type": "video",
+            "duration": "30 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-2-2.jpg",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 3,
+        "title": { "th": "การเก็บน้ำหวานและการต้ม", "en": "Nectar Collection and Boiling" },
+        "duration": "2.5 hours",
+        "lessons": [
+          {
+            "lessonId": 6,
+            "title": { "th": "เทคนิคการเก็บน้ำหวาน", "en": "Nectar Collection Techniques" },
+            "type": "video",
+            "duration": "60 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-3-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 7,
+            "title": { "th": "กระบวนการต้มและควบคุมอุณหภูมิ", "en": "Boiling Process and Temperature Control" },
+            "type": "video",
+            "duration": "70 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-3-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 8,
+            "title": { "th": "แบบทดสอบบทที่ 3", "en": "Chapter 3 Quiz" },
+            "type": "quiz",
+            "duration": "20 min",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 4,
+        "title": { "th": "การบรรจุและการตลาด", "en": "Packaging and Marketing" },
+        "duration": "1.5 hours",
+        "lessons": [
+          {
+            "lessonId": 9,
+            "title": { "th": "มาตรฐานการบรรจุและฉลาก", "en": "Packaging and Labeling Standards" },
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-4-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 10,
+            "title": { "th": "การตลาดและช่องทางจำหน่าย", "en": "Marketing and Distribution Channels" },
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/coconut-4-2.jpg",
+            "isPreview": false
+          }
+        ]
+      }
+    ],
+    "instructor": {
+      "name": {
+        "th": "นายสมชาย ใจดี",
+        "en": "Mr. Somchai Jaidee"
+      },
+      "title": {
+        "th": "เกษตรกรออร์แกนิค",
+        "en": "Organic Farmer"
+      },
+      "avatar": "/images/communities/coconut-sugar/leader.jpg",
+      "bio": {
+        "th": "สมชายเป็นเกษตรกรออร์แกนิคที่มีประสบการณ์ 15 ปีในการผลิตน้ำตาลมะพร้าว สำเร็จการศึกษาจากจุฬาลงกรณ์มหาวิทยาลัย คณะวิทยาศาสตร์ วิชาเคมี และนำความรู้มาพัฒนากระบวนการผลิตน้ำตาลมะพร้าวออร์แกนิค ผลิตภัณฑ์ของเขาได้รับการรับรองมาตรฐาน IFOAM และ EU Organic ส่งออกไปหลายประเทศ ปัจจุบันร่วมงานวิจัยกับคณะวิทยาศาสตร์ จุฬาฯ ในการพัฒนาคุณภาพและมาตรฐานผลิตภัณฑ์",
+        "en": "Somchai is an organic farmer with 15 years of experience in coconut sugar production. He graduated from Chulalongkorn University, Faculty of Science, majoring in Chemistry, and applied his knowledge to develop organic coconut sugar production processes. His products are certified by IFOAM and EU Organic standards and exported to many countries. Currently collaborates with Faculty of Science, Chulalongkorn University on product quality and standards development."
+      },
+      "affiliation": "Lampang Organic Coconut Sugar",
+      "coursesCount": 1,
+      "studentsCount": 89,
+      "rating": 4.9,
+      "socialLinks": {
+        "line": "https://line.me/lampangcoconut",
+        "email": "lampangcoconut@example.com"
+      }
+    },
+    "duration": {
+      "hours": 6,
+      "sessions": 3
+    },
+    "level": "intermediate",
+    "language": ["th", "en"],
+    "price": {
+      "amount": 2500,
+      "currency": "THB"
+    },
+    "topics": [
+      {
+        "th": "การดูแลต้นมะพร้าวแบบออร์แกนิค",
+        "en": "Organic coconut tree care"
+      },
+      {
+        "th": "เทคนิคการเก็บน้ำหวาน",
+        "en": "Nectar collection techniques"
+      },
+      {
+        "th": "กระบวนการต้มและควบคุมคุณภาพ",
+        "en": "Boiling process and quality control"
+      },
+      {
+        "th": "การบรรจุและเก็บรักษา",
+        "en": "Packaging and storage"
+      }
+    ],
+    "certificate": true,
+    "maxStudents": 20,
+    "thumbnail": "/images/courses/coconut-sugar-101.jpg",
+    "featured": true,
+    "rating": 4.9,
+    "studentsEnrolled": 89
+  },
+  {
+    "id": "course-003",
+    "communityId": "samut-songkhram-pottery",
+    "title": {
+      "th": "การปั้นเซรามิกสไตล์มินิมอล",
+      "en": "Minimal Style Ceramic Molding"
+    },
+    "description": {
+      "th": "เรียนรู้เทคนิคการปั้นเซรามิกสไตล์มินิมอล ตั้งแต่การเตรียมดิน การปั้นรูปทรง การเคลือบ และการเผา เหมาะสำหรับผู้ที่ต้องการเริ่มต้นธุรกิจเครื่องปั้นดินเผา",
+      "en": "Learn minimal style ceramic molding techniques from clay preparation, shaping, glazing, to firing. Suitable for those wanting to start a pottery business."
+    },
+    "fullDescription": {
+      "th": "หลักสูตรการปั้นเซรามิกสไตล์มินิมอล สอนโดยช่างปั้นมืออาชีพที่ผสมผสานเทคนิคดั้งเดิมกับการออกแบบร่วมสมัย คุณจะได้เรียนรู้ทั้งทฤษฎีและปฏิบัติจริงในสตูดิโอเซรามิก\n\nเซรามิกมินิมอลเป็นกระแสที่ได้รับความนิยมอย่างสูงในตลาดโลก โดยเฉพาะในกลุ่มประเทศ GCC ญี่ปุ่น และยุโรป ด้วยความงามที่เรียบง่าย เน้นรูปทรงและเนื้อสัมผัส มากกว่าลวดลายที่ซับซ้อน\n\nในหลักสูตรนี้ คุณจะได้เรียนรู้ตั้งแต่การเลือกและเตรียมดิน การออกแบบรูปทรง เทคนิคการปั้นทั้งแบบมือและล้อหมุน การเคลือบสีธรรมชาติ และการเผาในเตาแบบต่างๆ พร้อมแนวทางในการเริ่มต้นธุรกิจและการตลาด",
+      "en": "Minimal style ceramic molding course taught by professional potters who blend traditional techniques with contemporary design. You'll learn both theory and hands-on practice in a ceramic studio.\n\nMinimal ceramics is a highly popular trend in global markets, especially in GCC countries, Japan, and Europe, with beauty in simplicity, focusing on form and texture over complex patterns.\n\nIn this course, you'll learn from clay selection and preparation, form design, hand molding and wheel throwing techniques, natural glazing, and firing in various kiln types, along with business startup and marketing guidance."
+    },
+    "learningObjectives": [
+      { "th": "เข้าใจหลักการออกแบบเซรามิกมินิมอล", "en": "Understand minimal ceramic design principles" },
+      { "th": "สามารถปั้นเซรามิกด้วยมือและล้อหมุนได้", "en": "Able to mold ceramics by hand and wheel" },
+      { "th": "เรียนรู้เทคนิคการเคลือบสีธรรมชาติ", "en": "Learn natural glazing techniques" },
+      { "th": "เข้าใจกระบวนการเผาและควบคุมอุณหภูมิ", "en": "Understand firing process and temperature control" },
+      { "th": "สร้างผลงานเซรามิกของตนเอง 5 ชิ้น", "en": "Create 5 ceramic pieces of your own" }
+    ],
+    "prerequisites": {
+      "th": "ไม่จำเป็นต้องมีพื้นฐาน เหมาะสำหรับผู้เริ่มต้นที่รักงานศิลปะและงานฝีมือ",
+      "en": "No prior experience required. Suitable for beginners who love art and crafts."
+    },
+    "requirements": {
+      "th": "ผู้เรียนต้องสวมเสื้อผ้าที่สามารถเปื้อนได้ และรองเท้าปิดหัว แนะนำให้นำผ้ากันเปื้อนมาเอง",
+      "en": "Learners must wear clothes that can get dirty and closed-toe shoes. Bringing your own apron is recommended."
+    },
+    "curriculum": [
+      {
+        "sectionId": 1,
+        "title": { "th": "พื้นฐานเซรามิกและการออกแบบมินิมอล", "en": "Ceramic Fundamentals and Minimal Design" },
+        "duration": "2 hours",
+        "lessons": [
+          {
+            "lessonId": 1,
+            "title": { "th": "ประวัติและปรัชญาของเซรามิกมินิมอล", "en": "History and Philosophy of Minimal Ceramics" },
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-1-1.jpg",
+            "isPreview": true
+          },
+          {
+            "lessonId": 2,
+            "title": { "th": "หลักการออกแบบรูปทรงและสัดส่วน", "en": "Form Design and Proportion Principles" },
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-1-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 3,
+            "title": { "th": "ตลาดและแนวโน้มเซรามิกร่วมสมัย", "en": "Market and Contemporary Ceramic Trends" },
+            "type": "reading",
+            "duration": "30 min",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 2,
+        "title": { "th": "เทคนิคการปั้นมือ", "en": "Hand Molding Techniques" },
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "lessonId": 4,
+            "title": { "th": "การเตรียมดินและเครื่องมือ", "en": "Clay and Tool Preparation" },
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-2-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 5,
+            "title": { "th": "เทคนิคการปั้นแบบพิน (Pinch Pot)", "en": "Pinch Pot Technique" },
+            "type": "video",
+            "duration": "60 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-2-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 6,
+            "title": { "th": "เทคนิคการม้วนดิน (Coil Building)", "en": "Coil Building Technique" },
+            "type": "video",
+            "duration": "60 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-2-3.jpg",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 3,
+        "title": { "th": "เทคนิคการปั้นด้วยล้อหมุน", "en": "Wheel Throwing Techniques" },
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "lessonId": 7,
+            "title": { "th": "การจับดินและการปั่นล้อ", "en": "Clay Centering and Wheel Spinning" },
+            "type": "video",
+            "duration": "70 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-3-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 8,
+            "title": { "th": "การปั้นชามและจาน", "en": "Molding Bowls and Plates" },
+            "type": "video",
+            "duration": "80 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-3-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 9,
+            "title": { "th": "การปั้นแจกันและภาชนะสูง", "en": "Molding Vases and Tall Vessels" },
+            "type": "video",
+            "duration": "70 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-3-3.jpg",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 4,
+        "title": { "th": "การเคลือบและการเผา", "en": "Glazing and Firing" },
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "lessonId": 10,
+            "title": { "th": "ประเภทและการเตรียมสีเคลือบ", "en": "Glaze Types and Preparation" },
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-4-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 11,
+            "title": { "th": "เทคนิคการเคลือบและลวดลาย", "en": "Glazing Techniques and Patterns" },
+            "type": "video",
+            "duration": "60 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-4-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 12,
+            "title": { "th": "การเผาและควบคุมอุณหภูมิ", "en": "Firing and Temperature Control" },
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/pottery-4-3.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 13,
+            "title": { "th": "แนวทางธุรกิจและการตลาด", "en": "Business and Marketing Guidance" },
+            "type": "reading",
+            "duration": "30 min",
+            "isPreview": false
+          }
+        ]
+      }
+    ],
+    "instructor": {
+      "name": {
+        "th": "นายกฤษณ์ ศิลป์ดี",
+        "en": "Mr. Krit Sinladee"
+      },
+      "title": {
+        "th": "นักออกแบบเซรามิก",
+        "en": "Ceramic Designer"
+      },
+      "avatar": "/images/communities/samut-pottery/leader.jpg",
+      "bio": {
+        "th": "กฤษณ์เป็นช่างปั้นและนักออกแบบเซรามิกมืออาชีพ สำเร็จการศึกษาจากจุฬาลงกรณ์มหาวิทยาลัย คณะศิลปกรรมศาสตร์ วิชาเอกออกแบบผลิตภัณฑ์เซรามิก เขาเป็นผู้ก่อตั้งกลุ่มเครื่องปั้นดินเผาสมุทรสงคราม และได้รับรางวัลการออกแบบหลายรางวัล ผลงานของเขาได้รับความนิยมในญี่ปุ่น ยุโรป และกำลังเข้าสู่ตลาด GCC ปัจจุบันเป็นอาจารย์พิเศษที่คณะศิลปกรรมศาสตร์ จุฬาฯ และที่ปรึกษาโครงการ CU Enterprise",
+        "en": "Krit is a professional potter and ceramic designer. He graduated from Chulalongkorn University, Faculty of Fine and Applied Arts, majoring in Ceramic Product Design. He founded Samut Songkhram Pottery Group and has won several design awards. His works are popular in Japan, Europe, and entering GCC markets. Currently a guest lecturer at Faculty of Fine and Applied Arts, Chulalongkorn University, and consultant for CU Enterprise program."
+      },
+      "affiliation": "Samut Songkhram Pottery Group",
+      "coursesCount": 3,
+      "studentsCount": 156,
+      "rating": 4.7,
+      "socialLinks": {
+        "website": "https://www.samutpottery.com",
+        "instagram": "https://instagram.com/samutpottery"
+      }
+    },
+    "duration": {
+      "hours": 12,
+      "sessions": 6
+    },
+    "level": "beginner",
+    "language": ["th", "en"],
+    "price": {
+      "amount": 4500,
+      "currency": "THB"
+    },
+    "topics": [
+      {
+        "th": "พื้นฐานการออกแบบเซรามิก",
+        "en": "Ceramic design fundamentals"
+      },
+      {
+        "th": "การเตรียมดินและเครื่องมือ",
+        "en": "Clay and tool preparation"
+      },
+      {
+        "th": "เทคนิคการปั้นมือและล้อหมุน",
+        "en": "Hand molding and wheel throwing techniques"
+      },
+      {
+        "th": "การเคลือบสีและการเผา",
+        "en": "Glazing and firing"
+      }
+    ],
+    "certificate": true,
+    "maxStudents": 12,
+    "thumbnail": "/images/courses/pottery-minimal.jpg",
+    "featured": false,
+    "rating": 4.7,
+    "studentsEnrolled": 65
+  },
+  {
+    "id": "course-cu-001",
+    "communityId": null,
+    "title": {
+      "th": "เข้าตลาด GCC 101",
+      "en": "Entering GCC Market 101"
+    },
+    "description": {
+      "th": "หลักสูตรโดยผู้เชี่ยวชาญจากจุฬาฯ สอนความรู้พื้นฐานเกี่ยวกับตลาด GCC (อ่าว) วัฒนธรรม กฎระเบียบ และกลยุทธ์การตลาดที่เหมาะสม",
+      "en": "Expert course from Chulalongkorn University teaching fundamentals about GCC (Gulf) market, culture, regulations, and appropriate marketing strategies."
+    },
+    "fullDescription": {
+      "th": "หลักสูตรพิเศษจากจุฬาลงกรณ์มหาวิทยาลัย สำหรับผู้ประกอบการไทยที่ต้องการขยายธุรกิจสู่ตลาด GCC (Gulf Cooperation Council) ซึ่งประกอบด้วย 6 ประเทศ ได้แก่ ซาอุดีอาระเบีย สหรัฐอาหรับเอมิเรตส์ กาตาร์ คูเวต บาห์เรน และโอมาน\n\nตลาด GCC มีศักยภาพสูงสำหรับสินค้าไทย โดยเฉพาะผลิตภัณฑ์จากชุมชน งานหัตถกรรม และอาหารเพื่อสุขภาพ ด้วยกำลังซื้อสูงและความสนใจในผลิตภัณฑ์คุณภาพจากเอเชีย\n\nคุณจะได้เรียนรู้จากอาจารย์ผู้เชี่ยวชาญที่มีประสบการณ์ตรงในการทำงานกับตลาด GCC ทั้งด้านวัฒนธรรมธุรกิจ กฎระเบียบ มาตรฐาน และกลยุทธ์การตลาดที่เหมาะสม หลักสูตรนี้เปิดสอนฟรีสำหรับผู้ประกอบการชุมชนที่เข้าร่วมโครงการ Knowledge Hub",
+      "en": "Special course from Chulalongkorn University for Thai entrepreneurs wanting to expand business to GCC (Gulf Cooperation Council) markets, consisting of 6 countries: Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman.\n\nThe GCC market has high potential for Thai products, especially community products, handicrafts, and health foods, with high purchasing power and interest in quality Asian products.\n\nYou'll learn from expert professors with direct experience in GCC markets, covering business culture, regulations, standards, and appropriate marketing strategies. This course is free for community entrepreneurs participating in the Knowledge Hub program."
+    },
+    "learningObjectives": [
+      { "th": "เข้าใจโอกาสและศักยภาพของตลาด GCC", "en": "Understand opportunities and potential of GCC market" },
+      { "th": "เรียนรู้วัฒนธรรมและมารยาททางธุรกิจอาหรับ", "en": "Learn Arabic business culture and etiquette" },
+      { "th": "รู้กฎระเบียบและมาตรฐานการนำเข้าสินค้า", "en": "Know import regulations and product standards" },
+      { "th": "สามารถวางแผนกลยุทธ์การตลาดได้", "en": "Able to plan marketing strategies" },
+      { "th": "เข้าใจการปรับผลิตภัณฑ์สำหรับตลาด GCC", "en": "Understand product localization for GCC market" }
+    ],
+    "prerequisites": {
+      "th": "เหมาะสำหรับผู้ประกอบการที่มีผลิตภัณฑ์พร้อมจำหน่าย หรือกำลังวางแผนส่งออก",
+      "en": "Suitable for entrepreneurs with products ready for sale or planning to export."
+    },
+    "requirements": {
+      "th": "แนะนำให้เตรียมข้อมูลผลิตภัณฑ์และแผนธุรกิจเบื้องต้นมาด้วย",
+      "en": "Recommended to prepare product information and preliminary business plan."
+    },
+    "curriculum": [
+      {
+        "sectionId": 1,
+        "title": { "th": "ภาพรวมตลาด GCC", "en": "GCC Market Overview" },
+        "duration": "2 hours",
+        "lessons": [
+          {
+            "lessonId": 1,
+            "title": { "th": "แนะนำตลาด GCC และโอกาสทางธุรกิจ", "en": "Introduction to GCC Market and Business Opportunities" },
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-1-1.jpg",
+            "isPreview": true
+          },
+          {
+            "lessonId": 2,
+            "title": { "th": "พฤติกรรมผู้บริโภคและแนวโน้มตลาด", "en": "Consumer Behavior and Market Trends" },
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-1-2.jpg",
+            "isPreview": true
+          },
+          {
+            "lessonId": 3,
+            "title": { "th": "กรณีศึกษา: ความสำเร็จของสินค้าไทย", "en": "Case Studies: Success of Thai Products" },
+            "type": "reading",
+            "duration": "25 min",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 2,
+        "title": { "th": "วัฒนธรรมและมารยาทธุรกิจ", "en": "Business Culture and Etiquette" },
+        "duration": "2 hours",
+        "lessons": [
+          {
+            "lessonId": 4,
+            "title": { "th": "ความเข้าใจวัฒนธรรมอาหรับและอิสลาม", "en": "Understanding Arabic and Islamic Culture" },
+            "type": "video",
+            "duration": "55 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-2-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 5,
+            "title": { "th": "มารยาทและการสื่อสารทางธุรกิจ", "en": "Business Etiquette and Communication" },
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-2-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 6,
+            "title": { "th": "การเจรจาและการสร้างความสัมพันธ์", "en": "Negotiation and Relationship Building" },
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-2-3.jpg",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 3,
+        "title": { "th": "กฎระเบียบและมาตรฐาน", "en": "Regulations and Standards" },
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "lessonId": 7,
+            "title": { "th": "กฎระเบียบการนำเข้าและพิธีการศุลกากร", "en": "Import Regulations and Customs Procedures" },
+            "type": "video",
+            "duration": "60 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-3-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 8,
+            "title": { "th": "มาตรฐานสินค้าและการรับรอง Halal", "en": "Product Standards and Halal Certification" },
+            "type": "video",
+            "duration": "65 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-3-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 9,
+            "title": { "th": "ข้อกำหนดฉลากและบรรจุภัณฑ์", "en": "Labeling and Packaging Requirements" },
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-3-3.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 10,
+            "title": { "th": "เอกสารประกอบ: มาตรฐาน GCC", "en": "Reading: GCC Standards" },
+            "type": "reading",
+            "duration": "35 min",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 4,
+        "title": { "th": "กลยุทธ์การตลาดและการปรับผลิตภัณฑ์", "en": "Marketing Strategy and Product Localization" },
+        "duration": "2.5 hours",
+        "lessons": [
+          {
+            "lessonId": 11,
+            "title": { "th": "การวิเคราะห์ตลาดเป้าหมาย", "en": "Target Market Analysis" },
+            "type": "video",
+            "duration": "45 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-4-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 12,
+            "title": { "th": "การปรับผลิตภัณฑ์และบรรจุภัณฑ์", "en": "Product and Packaging Localization" },
+            "type": "video",
+            "duration": "55 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-4-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 13,
+            "title": { "th": "ช่องทางการจำหน่ายและการตลาดดิจิทัล", "en": "Distribution Channels and Digital Marketing" },
+            "type": "video",
+            "duration": "50 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-4-3.jpg",
+            "isPreview": false
+          }
+        ]
+      },
+      {
+        "sectionId": 5,
+        "title": { "th": "การวางแผนและเริ่มต้นส่งออก", "en": "Planning and Starting Export" },
+        "duration": "1.5 hours",
+        "lessons": [
+          {
+            "lessonId": 14,
+            "title": { "th": "การหาคู่ค้าและการสร้างเครือข่าย", "en": "Finding Partners and Networking" },
+            "type": "video",
+            "duration": "40 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-5-1.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 15,
+            "title": { "th": "การวางแผนธุรกิจส่งออก", "en": "Export Business Planning" },
+            "type": "video",
+            "duration": "35 min",
+            "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "/images/courses/lessons/gcc-5-2.jpg",
+            "isPreview": false
+          },
+          {
+            "lessonId": 16,
+            "title": { "th": "แบบทดสอบท้ายหลักสูตร", "en": "Final Course Quiz" },
+            "type": "quiz",
+            "duration": "30 min",
+            "isPreview": false
+          }
+        ]
+      }
+    ],
+    "instructor": {
+      "name": {
+        "th": "ผศ.ดร.วิชัย สุขสันต์",
+        "en": "Asst. Prof. Dr. Vichai Suksan"
+      },
+      "title": {
+        "th": "คณะพาณิชยศาสตร์และการบัญชี จุฬาฯ",
+        "en": "Faculty of Commerce and Accountancy, Chulalongkorn University"
+      },
+      "avatar": "/images/instructors/cu-instructor-1.jpg",
+      "bio": {
+        "th": "ผศ.ดร.วิชัย สุขสันต์ เป็นผู้เชี่ยวชาญด้านการตลาดระหว่างประเทศและการค้ากับตะวันออกกลาง มีประสบการณ์การทำงานและให้คำปรึกษากับภาครัฐและเอกชนมากกว่า 15 ปี ได้รับปริญญาเอกด้านการตลาดระหว่างประเทศจากมหาวิทยาลัยชั้นนำในอังกฤษ ปัจจุบันเป็นอาจารย์ที่คณะพาณิชยศาสตร์และการบัญชี จุฬาลงกรณ์มหาวิทยาลัย และเป็นที่ปรึกษาโครงการส่งเสริมการค้าไทย-GCC ของกระทรวงพาณิชย์",
+        "en": "Asst. Prof. Dr. Vichai Suksan is an expert in international marketing and Middle East trade with over 15 years of experience consulting government and private sectors. He holds a Ph.D. in International Marketing from a leading UK university. Currently a professor at Faculty of Commerce and Accountancy, Chulalongkorn University, and consultant for the Ministry of Commerce's Thai-GCC trade promotion program."
+      },
+      "affiliation": "Chulalongkorn University",
+      "coursesCount": 5,
+      "studentsCount": 890,
+      "rating": 4.9,
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/vichai-suksan",
+        "email": "vichai.s@chula.ac.th"
+      }
+    },
+    "duration": {
+      "hours": 10,
+      "sessions": 5
+    },
+    "level": "intermediate",
+    "language": ["th", "en"],
+    "price": {
+      "amount": 0,
+      "currency": "THB"
+    },
+    "topics": [
+      {
+        "th": "ภาพรวมตลาด GCC และโอกาสทางธุรกิจ",
+        "en": "GCC market overview and business opportunities"
+      },
+      {
+        "th": "วัฒนธรรมและมารยาทธุรกิจอาหรับ",
+        "en": "Arabic business culture and etiquette"
+      },
+      {
+        "th": "กฎระเบียบการนำเข้าและมาตรฐานสินค้า",
+        "en": "Import regulations and product standards"
+      },
+      {
+        "th": "กลยุทธ์การตลาดและการสื่อสาร",
+        "en": "Marketing and communication strategies"
+      },
+      {
+        "th": "การปรับผลิตภัณฑ์ (Localization)",
+        "en": "Product Localization"
+      }
+    ],
+    "certificate": true,
+    "maxStudents": 50,
+    "thumbnail": "/images/courses/gcc-market.jpg",
+    "featured": true,
+    "rating": 4.9,
+    "studentsEnrolled": 234
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "prod-001",
+    "communityId": "hmong-nan-khun-sathan",
+    "name": {
+      "th": "ยอดฟักทอง บ้านขุนสถาน",
+      "en": "Pumpkin Shoots, Ban Khun Sathan"
+    },
+    "description": {
+      "th": "ยอดฟักทองสดจากแปลงพ่อเอนก บ้านขุนสถาน ต.สันทะ อ.นาน้อย จ.น่าน ผักที่นิยมนำมาประกอบอาหาร เช่น ผัดน้ำมันหอย หรือใส่แกงต่าง ๆ ปลูกบนดอยสูงในสภาพอากาศเย็น ทำให้ยอดนุ่มและอร่อย",
+      "en": "Fresh pumpkin shoots from Father Anek's plot at Ban Khun Sathan, Santha Sub-district, Na Noi, Nan. Popular in stir-fries and Thai curries. Grown at highland elevation where cool air keeps shoots tender and flavourful."
+    },
+    "category": "vegetable",
+    "price": {
+      "amount": 40,
+      "currency": "THB"
+    },
+    "unit": "100g bundle",
+    "moq": 10,
+    "leadTime": "3 days",
+    "materials": {
+      "th": "ผักสดปลูกบนพื้นที่สูง ไม่ใช้สารเคมีสังเคราะห์",
+      "en": "Fresh highland-grown shoots, no synthetic chemicals"
+    },
+    "dimensions": null,
+    "weight": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "certifications": [
+      "โครงการหลวงขุนสถาน"
+    ],
+    "images": [
+      "/images/products/hmong-nan-khun-sathan/pumpkin-shoots-1.jpg",
+      "/images/products/hmong-nan-khun-sathan/pumpkin-shoots-2.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "local"
+      ],
+      "packaging": {
+        "th": "มัดด้วยเชือกกล้วย หรือบรรจุถุงกระดาษสีน้ำตาลพร้อมฉลากแหล่งที่มา",
+        "en": "Tied with banana-fibre twine or packed in brown-paper bags with origin label"
+      },
+      "culturalAdaptation": {
+        "th": "เหมาะสำหรับตลาดไทยและอาเซียน ใช้ทำอาหารประจำวันได้หลากหลายเมนู",
+        "en": "Suited for Thai and ASEAN markets; versatile ingredient for everyday home cooking"
+      },
+      "certificationNotes": {
+        "th": "ผลิตภายใต้การดูแลของโครงการพัฒนาพื้นที่สูงแบบโครงการหลวงขุนสถาน",
+        "en": "Produced under the supervision of the Khun Sathan Royal Project Highland Development Programme"
+      }
+    },
+    "available": true,
+    "featured": false,
+    "isPinned": true
+  },
+  {
+    "id": "prod-002",
+    "communityId": "hmong-nan-pang-kae",
+    "name": {
+      "th": "คะน้าใบหยิก บ้านปางแก",
+      "en": "Curly Kale, Ban Pang Kae"
+    },
+    "description": {
+      "th": "คะน้าใบหยิกสดจากแปลงพ่อดุสิต บ้านปางแก ต.ทุ่งช้าง อ.ทุ่งช้าง จ.น่าน ปลูกในระบบเกษตรอินทรีย์ 100% ตามมาตรฐาน Organic Thailand ไม่ใช้สารเคมีสังเคราะห์ ใบหยิกนุ่ม รสอ่อน เหมาะสำหรับนำไปผัด ต้ม หรือทำสลัด",
+      "en": "Fresh curly kale from Father Dusit's plot at Ban Pang Kae, Thung Chang Sub-district, Thung Chang, Nan. Grown under 100% organic system certified by Organic Thailand. Tender curly leaves with mild flavour, ideal for stir-frying, blanching, or salads."
+    },
+    "category": "vegetable",
+    "price": {
+      "amount": 55,
+      "currency": "THB"
+    },
+    "unit": "150g bunch",
+    "moq": 10,
+    "leadTime": "3 days",
+    "materials": {
+      "th": "เกษตรอินทรีย์ 100% ไม่ใช้ยาฆ่าแมลง ไม่ใช้ปุ๋ยเคมี",
+      "en": "100% certified organic, no pesticides, no synthetic fertilisers"
+    },
+    "dimensions": null,
+    "weight": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "certifications": [
+      "Organic Thailand"
+    ],
+    "images": [
+      "/images/products/hmong-nan-pang-kae/curly-kale-1.jpg",
+      "/images/products/hmong-nan-pang-kae/curly-kale-2.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "local"
+      ],
+      "packaging": {
+        "th": "บรรจุถุงกระดาษรักษ์โลก พร้อมสติกเกอร์โลโก้อินทรีย์และข้อมูลแปลง",
+        "en": "Eco-kraft paper bag with organic logo sticker and plot traceability info"
+      },
+      "culturalAdaptation": {
+        "th": "เหมาะสำหรับกลุ่มผู้บริโภคที่ใส่ใจสุขภาพ และตลาดอาหารออร์แกนิคในเมืองหลวงและเมืองใหญ่",
+        "en": "Ideal for health-conscious consumers and urban organic food markets in Bangkok and major cities"
+      },
+      "certificationNotes": {
+        "th": "ได้รับการรับรองมาตรฐาน Organic Thailand จากแปลงพ่อดุสิต ซึ่งแปลงเปลี่ยนจากเกษตรเคมีสู่อินทรีย์เต็มรูปแบบ",
+        "en": "Certified Organic Thailand from Father Dusit's farm, which transitioned from conventional chemical farming to full organic production"
+      }
+    },
+    "available": true,
+    "featured": false,
+    "isPinned": false
+  },
+  {
+    "id": "prod-003",
+    "communityId": "hmong-nan-pang-kae",
+    "name": {
+      "th": "ผักกาด บ้านปางแก",
+      "en": "Mustard Greens, Ban Pang Kae"
+    },
+    "description": {
+      "th": "ผักกาดเขียวสดจากแปลงพ่อดุสิต บ้านปางแก ต.ทุ่งช้าง อ.ทุ่งช้าง จ.น่าน ปลูกในระบบเกษตรอินทรีย์ 100% บนพื้นที่สูงกว่า 1,300 เมตรเหนือระดับน้ำทะเล อากาศเย็นทำให้ผักใบนุ่ม รสหวาน เหมาะสำหรับแกงส้ม ผัด หรือดองเป็นผักกาดดอง",
+      "en": "Fresh mustard greens from Father Dusit's plot at Ban Pang Kae, Thung Chang, Nan. Grown organically above 1,300 m elevation. Cool air produces sweet, tender leaves perfect for sour curry, stir-fries, or traditional pickled mustard."
+    },
+    "category": "vegetable",
+    "price": {
+      "amount": 40,
+      "currency": "THB"
+    },
+    "unit": "200g bunch",
+    "moq": 10,
+    "leadTime": "3 days",
+    "materials": {
+      "th": "เกษตรอินทรีย์ 100% ไม่ใช้ยาฆ่าแมลง ไม่ใช้ปุ๋ยเคมี",
+      "en": "100% certified organic, no pesticides, no synthetic fertilisers"
+    },
+    "dimensions": null,
+    "weight": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "certifications": [
+      "Organic Thailand"
+    ],
+    "images": [
+      "/images/products/hmong-nan-pang-kae/mustard-greens-1.jpg",
+      "/images/products/hmong-nan-pang-kae/mustard-greens-2.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "local"
+      ],
+      "packaging": {
+        "th": "บรรจุถุงกระดาษรักษ์โลก พร้อมสติกเกอร์โลโก้อินทรีย์และข้อมูลแปลง",
+        "en": "Eco-kraft paper bag with organic logo sticker and plot traceability info"
+      },
+      "culturalAdaptation": {
+        "th": "เป็นผักพื้นฐานในครัวไทยและอาเซียน นิยมใช้ประกอบอาหารได้หลายรูปแบบ",
+        "en": "A kitchen staple in Thai and ASEAN households, versatile across many cooking styles"
+      },
+      "certificationNotes": {
+        "th": "ได้รับการรับรองมาตรฐาน Organic Thailand จากแปลงพ่อดุสิต",
+        "en": "Certified Organic Thailand from Father Dusit's farm"
+      }
+    },
+    "available": true,
+    "featured": false,
+    "isPinned": false
+  },
+  {
+    "id": "prod-004",
+    "communityId": "hmong-nan-pang-kae",
+    "name": {
+      "th": "ฟักทองเขียว บ้านปางแก",
+      "en": "Green Pumpkin, Ban Pang Kae"
+    },
+    "description": {
+      "th": "ฟักทองเขียวสดจากแปลงพ่อดุสิต บ้านปางแก ต.ทุ่งช้าง อ.ทุ่งช้าง จ.น่าน ปลูกในระบบเกษตรอินทรีย์ 100% เนื้อแน่น รสหวาน เหมาะสำหรับนำไปแกงบวช แกงเผ็ด นึ่ง ทอด หรือแปรรูปเป็นขนมหวาน",
+      "en": "Fresh green pumpkin from Father Dusit's organic plot at Ban Pang Kae, Thung Chang, Nan. Firm flesh with natural sweetness. Excellent for pumpkin curry, steaming, frying, or dessert preparation."
+    },
+    "category": "vegetable",
+    "price": {
+      "amount": 50,
+      "currency": "THB"
+    },
+    "unit": "per kg",
+    "moq": 5,
+    "leadTime": "5 days",
+    "materials": {
+      "th": "เกษตรอินทรีย์ 100% ไม่ใช้ยาฆ่าแมลง ไม่ใช้ปุ๋ยเคมี",
+      "en": "100% certified organic, no pesticides, no synthetic fertilisers"
+    },
+    "dimensions": null,
+    "weight": {
+      "amount": 1000,
+      "unit": "g"
+    },
+    "certifications": [
+      "Organic Thailand"
+    ],
+    "images": [
+      "/images/products/hmong-nan-pang-kae/green-pumpkin-1.jpg",
+      "/images/products/hmong-nan-pang-kae/green-pumpkin-2.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "local"
+      ],
+      "packaging": {
+        "th": "บรรจุในตะกร้าไม้ไผ่หรือถุงตาข่ายพร้อมสติกเกอร์อินทรีย์ ระบุรหัสแปลงสำหรับตรวจสอบย้อนกลับ",
+        "en": "Packed in bamboo basket or mesh bag with organic sticker and plot traceability code"
+      },
+      "culturalAdaptation": {
+        "th": "เป็นวัตถุดิบหลักของอาหารไทยและเอเชียตะวันออกเฉียงใต้ เหมาะกับทั้งตลาดมวลชนและตลาดออร์แกนิค",
+        "en": "A core ingredient in Thai and Southeast Asian cuisine, suitable for both mass retail and organic specialty markets"
+      },
+      "certificationNotes": {
+        "th": "ได้รับการรับรองมาตรฐาน Organic Thailand จากแปลงพ่อดุสิต",
+        "en": "Certified Organic Thailand from Father Dusit's farm"
+      }
+    },
+    "available": true,
+    "featured": false,
+    "isPinned": false
+  },
+  {
+    "id": "prod-005",
+    "communityId": "mani-phruk-thung-chang",
+    "name": {
+      "th": "ลูกพลับ แปลงพ่อทวีชัย",
+      "en": "Persimmon, Father Thaweechai's Plot"
+    },
+    "description": {
+      "th": "ลูกพลับสดจากแปลงพ่อทวีชัย บ้านมณีพฤกษ์ ต.งอบ อ.ทุ่งช้าง จ.น่าน ปลูกบนพื้นที่สูง อากาศหนาวเย็น ทำให้ลูกพลับมีรสหวานหอม เนื้อแน่น เก็บเกี่ยวช่วงปลายปี ผลผลิตพรีเมียมที่หายากและเป็นที่ต้องการในตลาด",
+      "en": "Fresh persimmons from Father Thaweechai's plot at Ban Mani Phruk, Ngop Sub-district, Thung Chang, Nan. Grown in cool highland conditions that produce firm, sweet-fragrant fruit. Harvested late in the year; a premium and sought-after highland product."
+    },
+    "category": "fruit",
+    "price": {
+      "amount": 180,
+      "currency": "THB"
+    },
+    "unit": "500g pack",
+    "moq": 5,
+    "leadTime": "7 days",
+    "materials": {
+      "th": "ผลไม้สดปลูกบนพื้นที่สูง ลดการใช้สารเคมี",
+      "en": "Fresh highland fruit, reduced chemical inputs"
+    },
+    "dimensions": null,
+    "weight": {
+      "amount": 500,
+      "unit": "g"
+    },
+    "certifications": [],
+    "images": [
+      "/images/products/mani-phruk-thung-chang/persimmon-1.jpg",
+      "/images/products/mani-phruk-thung-chang/persimmon-2.jpg",
+      "/images/products/mani-phruk-thung-chang/persimmon-3.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "europe",
+        "gcc"
+      ],
+      "packaging": {
+        "th": "บรรจุในกล่องกระดาษพรีเมียมพร้อมฟองน้ำรองรับผล ระบุแหล่งที่มาบ้านมณีพฤกษ์ น่าน",
+        "en": "Premium paper gift box with foam padding. Origin-labelled Ban Mani Phruk, Nan"
+      },
+      "culturalAdaptation": {
+        "th": "สำหรับตลาด GCC และยุโรป: ลูกพลับเป็นผลไม้ที่ชนชั้นกลางและบนในตะวันออกกลางและยุโรปรู้จักดี เหมาะสำหรับเป็นของขวัญหรือผลไม้พรีเมียมแบบ single-origin",
+        "en": "For GCC and Europe: persimmon is well-known to middle and upper-class consumers in the Middle East and Europe; ideal for gifting or as a single-origin premium fruit"
+      },
+      "certificationNotes": {
+        "th": "อยู่ระหว่างพัฒนาการรับรองมาตรฐาน GAP เพื่อเข้าสู่ตลาดส่งออก",
+        "en": "In process of obtaining GAP certification to qualify for export markets"
+      }
+    },
+    "available": true,
+    "featured": true,
+    "isPinned": false
+  },
+  {
+    "id": "prod-006",
+    "communityId": "mani-phruk-thung-chang",
+    "name": {
+      "th": "ขิง แปลงพ่อทวีชัย",
+      "en": "Ginger, Father Thaweechai's Plot"
+    },
+    "description": {
+      "th": "ขิงสดจากแปลงพ่อทวีชัย บ้านมณีพฤกษ์ ต.งอบ อ.ทุ่งช้าง จ.น่าน ปลูกบนดินภูเขาที่อุดมสมบูรณ์ เนื้อขิงหนา กลิ่นหอมเผ็ดร้อนเข้มข้น เหมาะสำหรับทำน้ำขิง ชาขิง อาหารและยาสมุนไพร",
+      "en": "Fresh ginger from Father Thaweechai's plot at Ban Mani Phruk, Ngop Sub-district, Thung Chang, Nan. Grown in rich mountain soil producing thick rhizomes with intense, pungent aroma. Ideal for ginger drinks, herbal tea, cooking, and traditional medicine."
+    },
+    "category": "herb",
+    "price": {
+      "amount": 70,
+      "currency": "THB"
+    },
+    "unit": "500g",
+    "moq": 5,
+    "leadTime": "5 days",
+    "materials": {
+      "th": "สมุนไพรสดปลูกในดินภูเขา ลดการใช้สารเคมี",
+      "en": "Fresh highland-grown herb, reduced chemical inputs"
+    },
+    "dimensions": null,
+    "weight": {
+      "amount": 500,
+      "unit": "g"
+    },
+    "certifications": [],
+    "images": [
+      "/images/products/mani-phruk-thung-chang/ginger-1.jpg",
+      "/images/products/mani-phruk-thung-chang/ginger-2.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "europe",
+        "gcc"
+      ],
+      "packaging": {
+        "th": "บรรจุถุงตาข่ายผ้าหรือกระดาษคราฟต์พร้อมฉลากสมุนไพรไทย ระบุแหล่งผลิตน่าน",
+        "en": "Mesh cloth bag or kraft-paper pouch with Thai herb label and Nan origin mark"
+      },
+      "culturalAdaptation": {
+        "th": "สำหรับตลาดยุโรปและ GCC: ขิงเป็นสมุนไพรที่ตลาดสุขภาพทั่วโลกให้ความสนใจ เหมาะสำหรับนำไปแปรรูปเป็นชา ผงขิง หรือน้ำมันหอมระเหย",
+        "en": "For Europe and GCC: ginger is a globally recognised wellness ingredient; suitable for tea, powdered spice, or essential-oil processing"
+      },
+      "certificationNotes": {
+        "th": "อยู่ระหว่างพัฒนาการรับรองมาตรฐานสมุนไพรเพื่อตลาดส่งออก",
+        "en": "In process of obtaining herbal product certification for export markets"
+      }
+    },
+    "available": true,
+    "featured": false,
+    "isPinned": false
+  },
+  {
+    "id": "prod-007",
+    "communityId": "hmong-nan-khun-sathan",
+    "name": {
+      "th": "แตงม้ง แปลงพ่อบุญช่วย",
+      "en": "Hmong Melon, Father Bunchuay's Plot"
+    },
+    "description": {
+      "th": "แตงม้งสดจากแปลงพ่อบุญช่วย บ้านขุนสถาน ต.สันทะ อ.นาน้อย จ.น่าน แตงม้งเป็นพันธุ์ผักพื้นเมืองดั้งเดิมของชาวม้ง มีกลิ่นหอมอ่อน เนื้อกรอบ รสหวานเย็น นิยมรับประทานสดหรือนำไปประกอบอาหาร เช่น แกงส้ม ต้มจืด หรือยำ",
+      "en": "Fresh Hmong melon from Father Bunchuay's plot at Ban Khun Sathan, Santha Sub-district, Na Noi, Nan. An heirloom variety native to the Hmong people — lightly fragrant, crisp, and refreshingly sweet. Eaten fresh or used in sour curry, clear soup, or salads."
+    },
+    "category": "vegetable",
+    "price": {
+      "amount": 45,
+      "currency": "THB"
+    },
+    "unit": "per piece (~400g)",
+    "moq": 10,
+    "leadTime": "3 days",
+    "materials": {
+      "th": "พืชพันธุ์พื้นเมืองม้ง ปลูกบนพื้นที่สูง ไม่ใช้สารเคมีสังเคราะห์",
+      "en": "Hmong heirloom variety, highland-grown, no synthetic chemicals"
+    },
+    "dimensions": null,
+    "weight": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "certifications": [
+      "โครงการหลวงขุนสถาน"
+    ],
+    "images": [
+      "/images/products/hmong-nan-khun-sathan/hmong-melon-1.jpg",
+      "/images/products/hmong-nan-khun-sathan/hmong-melon-2.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "local"
+      ],
+      "packaging": {
+        "th": "มัดด้วยเชือกกล้วยหรือบรรจุถุงกระดาษ พร้อมฉลากระบุพันธุ์พื้นเมืองม้งและแหล่งผลิต",
+        "en": "Banana-twine tied or paper-bag packed with label indicating Hmong heirloom variety and origin"
+      },
+      "culturalAdaptation": {
+        "th": "เน้นจุดขายเรื่องความเป็นพันธุ์พื้นเมืองม้งที่หาได้ยากในตลาดทั่วไป เหมาะสำหรับตลาดอาหารนิเชและร้านอาหารที่เน้นวัตถุดิบพื้นถิ่น",
+        "en": "Highlight the heirloom Hmong variety narrative — rare in mainstream markets, ideal for niche food retailers and farm-to-table restaurants"
+      },
+      "certificationNotes": {
+        "th": "ผลิตภายใต้การดูแลของโครงการพัฒนาพื้นที่สูงแบบโครงการหลวงขุนสถาน",
+        "en": "Produced under the Khun Sathan Royal Project Highland Development Programme"
+      }
+    },
+    "available": true,
+    "featured": false,
+    "isPinned": false
+  },
+  {
+    "id": "prod-008",
+    "communityId": "mahachai-witthayakom-school",
+    "name": {
+      "th": "กระเป๋าผ้าใบเล็ก ผ้ามัดย้อมธรรมชาติ",
+      "en": "Small Natural-Dye Canvas Tote Bag"
+    },
+    "description": {
+      "th": "กระเป๋าผ้าใบขนาดเล็กจากโครงการผ้ามัดย้อมสีธรรมชาติ โรงเรียนมหาชัยวิทยาคม ใช้วัตถุดิบพืชพันธุ์ท้องถิ่นในการย้อมสี เปิดโอกาสให้นักเรียนได้ฝึกทักษะอาชีพและสร้างรายได้ระหว่างเรียน ตามแนวทาง 'ธรรมชาติ ภูมิปัญญา และการศึกษา' ลวดลายมัดย้อมมีความเป็นเอกลักษณ์แตกต่างกันทุกใบ",
+      "en": "Small canvas tote bag from the Natural-Dye Batik Project of Mahachai Witthayakom School. Dyed using locally sourced plant materials. Empowers students with vocational skills and income while studying, guided by the ethos of 'Nature, Wisdom, and Education'. Each bag is uniquely patterned — no two are identical."
+    },
+    "category": "textile",
+    "price": {
+      "amount": 199,
+      "currency": "THB"
+    },
+    "unit": "piece",
+    "moq": 5,
+    "leadTime": "14 days",
+    "materials": {
+      "th": "ผ้าแคนวาส ย้อมสีด้วยพืชธรรมชาติในท้องถิ่น (เช่น ครามธรรมชาติ ใบมะม่วง เปลือกไม้)",
+      "en": "Canvas fabric dyed with locally sourced natural plant pigments (e.g. natural indigo, mango leaves, tree bark)"
+    },
+    "dimensions": {
+      "length": 30,
+      "width": 28,
+      "unit": "cm"
+    },
+    "weight": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "certifications": [],
+    "images": [
+      "/images/products/mahachai-witthayakom/tote-small-1.jpg",
+      "/images/products/mahachai-witthayakom/tote-small-2.jpg",
+      "/images/products/mahachai-witthayakom/tote-small-3.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "europe",
+        "gcc"
+      ],
+      "packaging": {
+        "th": "บรรจุในถุงผ้าออร์แกนิคพร้อมการ์ดเล่าเรื่องโครงการนักเรียนเป็นภาษาไทยและอังกฤษ",
+        "en": "Packed in organic cotton dust bag with bilingual (Thai/English) story card about the student project"
+      },
+      "culturalAdaptation": {
+        "th": "สำหรับตลาดยุโรปและ GCC: เน้นจุดขายเรื่องความยั่งยืน ไม่มีรูปสัตว์ในลาย เหมาะกับกลุ่มผู้บริโภคที่สนใจสินค้าฝีมือแฟร์เทรดและผลิตภัณฑ์ที่มีผลกระทบทางสังคม",
+        "en": "For Europe and GCC: emphasise sustainability and fair-trade impact story; no animal motifs in the dye patterns; appeals to conscious-consumerism and social-enterprise buyers"
+      },
+      "certificationNotes": {
+        "th": "เป็นผลิตภัณฑ์จากโครงการฝึกอาชีพนักเรียน ยังไม่มีการรับรองมาตรฐาน แต่อยู่ระหว่างพัฒนาเพื่อขอรับรอง OTOP",
+        "en": "Student vocational project product; not yet formally certified, but in development for OTOP registration"
+      }
+    },
+    "available": true,
+    "featured": true,
+    "isPinned": false
+  },
+  {
+    "id": "prod-009",
+    "communityId": "mahachai-witthayakom-school",
+    "name": {
+      "th": "กระเป๋าผ้าใบใหญ่ ผ้ามัดย้อมธรรมชาติ",
+      "en": "Large Natural-Dye Canvas Tote Bag"
+    },
+    "description": {
+      "th": "กระเป๋าผ้าใบขนาดใหญ่จากโครงการผ้ามัดย้อมสีธรรมชาติ โรงเรียนมหาชัยวิทยาคม ใช้วัตถุดิบพืชพันธุ์ท้องถิ่นในการย้อมสี เปิดโอกาสให้นักเรียนได้ฝึกทักษะอาชีพและสร้างรายได้ระหว่างเรียน ตามแนวทาง 'ธรรมชาติ ภูมิปัญญา และการศึกษา' รองรับของใช้ในชีวิตประจำวันได้มาก ลวดลายมัดย้อมมีความเป็นเอกลักษณ์แตกต่างกันทุกใบ",
+      "en": "Large canvas tote bag from the Natural-Dye Batik Project of Mahachai Witthayakom School. Dyed using locally sourced plant materials. Created by students as part of vocational training for income generation, guided by 'Nature, Wisdom, and Education'. Spacious for everyday use; every bag uniquely patterned."
+    },
+    "category": "textile",
+    "price": {
+      "amount": 349,
+      "currency": "THB"
+    },
+    "unit": "piece",
+    "moq": 5,
+    "leadTime": "14 days",
+    "materials": {
+      "th": "ผ้าแคนวาสหนา ย้อมสีด้วยพืชธรรมชาติในท้องถิ่น (เช่น ครามธรรมชาติ ใบมะม่วง เปลือกไม้)",
+      "en": "Heavy-weight canvas dyed with locally sourced natural plant pigments (e.g. natural indigo, mango leaves, tree bark)"
+    },
+    "dimensions": {
+      "length": 42,
+      "width": 38,
+      "unit": "cm"
+    },
+    "weight": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "certifications": [],
+    "images": [
+      "/images/products/mahachai-witthayakom/tote-large-1.jpg",
+      "/images/products/mahachai-witthayakom/tote-large-2.jpg",
+      "/images/products/mahachai-witthayakom/tote-large-3.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "asean",
+        "europe",
+        "gcc"
+      ],
+      "packaging": {
+        "th": "บรรจุในถุงผ้าออร์แกนิคพร้อมการ์ดเล่าเรื่องโครงการนักเรียนเป็นภาษาไทยและอังกฤษ",
+        "en": "Packed in organic cotton dust bag with bilingual (Thai/English) story card about the student project"
+      },
+      "culturalAdaptation": {
+        "th": "สำหรับตลาดยุโรปและ GCC: เน้นจุดขายเรื่องความยั่งยืน ไม่มีรูปสัตว์ในลาย เหมาะกับกลุ่มผู้บริโภคที่สนใจสินค้าฝีมือแฟร์เทรดและผลิตภัณฑ์ที่มีผลกระทบทางสังคม",
+        "en": "For Europe and GCC: emphasise sustainability and fair-trade impact story; no animal motifs in the dye patterns; appeals to conscious-consumerism and social-enterprise buyers"
+      },
+      "certificationNotes": {
+        "th": "เป็นผลิตภัณฑ์จากโครงการฝึกอาชีพนักเรียน ยังไม่มีการรับรองมาตรฐาน แต่อยู่ระหว่างพัฒนาเพื่อขอรับรอง OTOP",
+        "en": "Student vocational project product; not yet formally certified, but in development for OTOP registration"
+      }
+    },
+    "available": true,
+    "featured": true,
+    "isPinned": false
+  }
+]
