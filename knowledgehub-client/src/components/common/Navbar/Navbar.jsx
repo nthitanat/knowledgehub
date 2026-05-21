@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className={styles.Container}>
           <Link to="/" className={styles.Logo}>
             <span className={styles.LogoText}>
-              {language === 'th' ? 'Chula-Glocal market' : 'Chula-Glocal market'}
+              {language === 'th' ? 'Chula-Glocal Market' : 'Chula-Glocal Market'}
             </span>
           </Link>
 

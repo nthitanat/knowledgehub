@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../../context/LanguageContext';
-import SplitHero from '../../components/common/SplitHero/SplitHero';
+import FeaturedHero from '../../components/common/FeaturedHero/FeaturedHero';
 import styles from './Landing.module.scss';
 
 export default function Landing() {
@@ -50,7 +50,7 @@ export default function Landing() {
   return (
     <div className={styles.Landing}>
       {/* Hero */}
-      <SplitHero
+      <FeaturedHero
         image="images/landing/landing.jpg"
         imageAlt="Community products"
         badge="KnowledgeHub CU"
