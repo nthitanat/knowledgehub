@@ -1,5 +1,300 @@
 [
   {
+    "id": "prod-evt-001",
+    "communityId": "toga-thai-trade-innovation",
+    "name": {
+      "th": "Thailand Exclusive Business Matching 2025 — ซาอุดีอาระเบีย & บาห์เรน",
+      "en": "Thailand Exclusive Business Matching 2025 — Saudi Arabia & Bahrain"
+    },
+    "description": {
+      "th": "โปรแกรมจับคู่ธุรกิจสุดเอ็กซ์คลูซีฟโดยสมาคมการค้าและนวัตกรรมไทยสู่สากล (TOGA) พาผู้ประกอบการไทยเจาะตลาดตะวันออกกลางใน 2 ประเทศ 3 เมือง ได้แก่ ริยาด – ดัมมาม – มานามา ระยะเวลา 5 วัน 4 คืน วันที่ 3–7 ธันวาคม 2568 ราคา 120,000 บาท (net) รวมทุกอย่าง",
+      "en": "An exclusive business matching programme by TOGA (Thai Trade & Innovation to Global Association) taking Thai entrepreneurs into the Middle East across 2 countries and 3 cities: Riyadh – Dammam – Manama. 5 days, 4 nights, 3–7 December 2025. Price: 120,000 THB (net) all-inclusive."
+    },
+    "category": "event",
+    "price": {
+      "amount": 120000,
+      "currency": "THB"
+    },
+    "unit": "per person",
+    "moq": 1,
+    "leadTime": "Register before 3 Dec 2025",
+    "materials": {
+      "th": "รวมในราคา: ตั๋วเครื่องบินไป-กลับ / วีซ่า / ที่พัก / ค่าเดินทางภายในทริป / อาหาร / กิจกรรมเจรจาธุรกิจทั้งหมด",
+      "en": "All-inclusive: round-trip flights / visa / accommodation / in-trip transportation / meals / all business matching activities"
+    },
+    "dimensions": null,
+    "weight": null,
+    "certifications": [],
+    "images": [
+      "/images/products/toga/business-matching-2025-cover.jpg",
+      "/images/products/toga/business-matching-2025-itinerary.jpg",
+      "/images/products/toga/business-matching-2025-reasons.jpg"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "3 ธันวาคม 2568",
+        "title": {
+          "th": "กรุงเทพฯ → ริยาด",
+          "en": "Bangkok → Riyadh"
+        },
+        "highlights": [
+          {
+            "th": "เยี่ยมชม Boulevard World — งานเทศกาลความบันเทิงที่ใหญ่ที่สุดในประเทศ",
+            "en": "Boulevard World — the country's largest entertainment festival"
+          },
+          {
+            "th": "เยี่ยมชม Boulevard Riyadh City — ไลฟ์สไตล์มอลล์ระดับโลก ศึกษาพฤติกรรมผู้บริโภคและแนวโน้มตลาด",
+            "en": "Boulevard Riyadh City — world-class lifestyle mall, consumer behaviour & market trends study"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "4 ธันวาคม 2568",
+        "title": {
+          "th": "Business Day ที่ริยาด",
+          "en": "Business Day in Riyadh"
+        },
+        "highlights": [
+          {
+            "th": "เชื่อมโยงเครือข่ายพันธมิตรทางธุรกิจ",
+            "en": "Build business partner networks"
+          },
+          {
+            "th": "พบปะนักธุรกิจระดับสูงจากซาอุฯ ในกิจกรรม Networking & Business Matching",
+            "en": "Meet senior Saudi business executives — Networking & Business Matching"
+          },
+          {
+            "th": "เข้าถึงโอกาสลงทุนใหม่และช่องทางจำหน่ายในตลาดซาอุดีอาระเบีย",
+            "en": "Access new investment opportunities and distribution channels in Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "5 ธันวาคม 2568",
+        "title": {
+          "th": "ริยาด → ดัมมาม → มานามา",
+          "en": "Riyadh → Dammam → Manama"
+        },
+        "highlights": [
+          {
+            "th": "เดินทางโดย High Speed Train ผ่านทะเลทรายไปยังดัมมาม",
+            "en": "High Speed Train across the desert to Dammam"
+          },
+          {
+            "th": "เยี่ยมชม Ithra Cultural Center — ศึกษา Creative Economy",
+            "en": "Ithra Cultural Center — Creative Economy study"
+          },
+          {
+            "th": "ข้ามสะพานทะเลอ่าว 25 กม. King Fahad Causeway สู่บาห์เรน",
+            "en": "Cross the 25 km King Fahad Causeway to Bahrain"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "6 ธันวาคม 2568",
+        "title": {
+          "th": "Thai Festival in Bahrain 2025 (All-Day)",
+          "en": "Thai Festival in Bahrain 2025 (All-Day)"
+        },
+        "highlights": [
+          {
+            "th": "เข้าร่วมกิจกรรมแสดงสินค้าเพื่อประชาสัมพันธ์สินค้าไทยในงาน Thai Festival in Bahrain",
+            "en": "Product showcase to promote Thai goods at Thai Festival in Bahrain"
+          },
+          {
+            "th": "เจรจาธุรกิจกับนักธุรกิจชั้นนำ เข้าเยี่ยมเอกอัครราชทูตไทยประจำกรุงมานามา",
+            "en": "Business negotiations with top executives; visit Thai Ambassador to Manama"
+          },
+          {
+            "th": "Networking กับหน่วยงานภาครัฐในบาห์เรนและนักธุรกิจระดับสูง",
+            "en": "Networking with Bahraini government agencies and senior business executives"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "date": "7 ธันวาคม 2568",
+        "title": {
+          "th": "Market Survey และเยี่ยมชมตลาดบาห์เรน",
+          "en": "Market Survey & Bahrain Market Tour"
+        },
+        "highlights": [
+          {
+            "th": "เยี่ยมชม Manama Souk แหล่งรวมสินค้าท้องถิ่นและนักท่องเที่ยวใจกลางเมือง",
+            "en": "Manama Souk — local goods hub in the city centre"
+          },
+          {
+            "th": "เยี่ยมชม Thai Mart สำรวจวิธีการขายสินค้าไทยในบาห์เรน",
+            "en": "Thai Mart — study how Thai products are sold in Bahrain"
+          },
+          {
+            "th": "ช้อปปิ้งที่ The Avenues Mall ห้างหรูระดับพรีเมียม เพื่อศึกษาเทรนด์สินค้าและพฤติกรรมผู้บริโภค",
+            "en": "The Avenues Mall — premium retail trend and consumer behaviour study"
+          },
+          {
+            "th": "เดินทางกลับกรุงเทพฯ",
+            "en": "Return flight to Bangkok"
+          }
+        ]
+      }
+    ],
+    "localization": {
+      "targetMarkets": [
+        "gcc"
+      ],
+      "packaging": {
+        "th": "โปรแกรมเจาะตลาด GCC แบบ End-to-End จัดเต็ม 5 วัน รวมทุกอย่าง ไม่มีค่าใช้จ่ายแอบแฝง",
+        "en": "End-to-end GCC market entry programme, 5 full days, everything included — no hidden costs"
+      },
+      "culturalAdaptation": {
+        "th": "ออกแบบเฉพาะสำหรับผู้ประกอบการไทยที่ต้องการเจาะตลาดซาอุดีอาระเบียและบาห์เรนเป็นครั้งแรก เน้นความสัมพันธ์และการ Networking ตามวัฒนธรรมธุรกิจอาหรับ",
+        "en": "Designed specifically for Thai entrepreneurs entering Saudi Arabia and Bahrain for the first time — emphasising relationship-building and networking in line with Arab business culture"
+      },
+      "certificationNotes": {
+        "th": "จัดโดยสมาคมการค้าและนวัตกรรมไทยสู่สากล (TOGA) ติดต่อ Line OA: @siamsaudi",
+        "en": "Organised by TOGA — Thai Trade & Innovation to Global Association. Contact via Line OA: @siamsaudi"
+      }
+    },
+    "contact": {
+      "lineOA": "@siamsaudi",
+      "phone1": "096-924-3629",
+      "phone2": "097-465-4955"
+    },
+    "available": true,
+    "featured": true,
+    "isPinned": true
+  },
+  {
+    "id": "prod-evt-002",
+    "communityId": "index-creative-village",
+    "name": {
+      "th": "Thailand International Mega Fair 2025 Riyadh — บูธแสดงสินค้า",
+      "en": "Thailand International Mega Fair 2025 Riyadh — Exhibitor Booth"
+    },
+    "description": {
+      "th": "งานแสดงสินค้าไทยระดับนานาชาติ ครั้งที่ 3 ณ ริยาด ซาอุดีอาระเบีย วันที่ 7–9 ธันวาคม 2568 ที่ Riyadh International Convention & Exhibition Center (RICEC) โอกาสเชื่อมโยงเครือข่ายธุรกิจและขยายตลาดสู่ซาอุดีอาระเบีย จัดโดย Index Creative Village",
+      "en": "Thailand's 3rd International Mega Fair in Riyadh, Saudi Arabia. 7–9 December 2025 at Riyadh International Convention & Exhibition Center (RICEC). Opportunity to build business networks and expand into the Saudi market. Organised by Index Creative Village."
+    },
+    "category": "event",
+    "price": {
+      "amount": null,
+      "currency": "THB",
+      "note": {
+        "th": "ติดต่อสอบถามราคาบูธโดยตรง",
+        "en": "Contact organiser for booth pricing"
+      }
+    },
+    "unit": "per booth",
+    "moq": 1,
+    "leadTime": "Book now — limited booths available",
+    "materials": {
+      "th": "รวมในแพ็กเกจ: พื้นที่บูธ / สิทธิพิเศษในงาน / โอกาส Networking กับนักธุรกิจซาอุดีอาระเบีย",
+      "en": "Package includes: booth space / event privileges / networking opportunities with Saudi business executives"
+    },
+    "dimensions": null,
+    "weight": null,
+    "certifications": [],
+    "images": [
+      "/images/products/index-creative-village/mega-fair-riyadh-2025.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "gcc"
+      ],
+      "packaging": {
+        "th": "บูธแสดงสินค้าไทยในงานเมกะแฟร์ริยาด — เหมาะสำหรับผู้ประกอบการที่ต้องการนำสินค้าเข้าสู่ตลาดซาอุดีอาระเบีย",
+        "en": "Thai product exhibition booth at Mega Fair Riyadh — ideal for entrepreneurs ready to enter the Saudi market"
+      },
+      "culturalAdaptation": {
+        "th": "งานจัดปีละครั้ง เป็นโอกาสสำคัญในการสำรวจตลาดซาอุดีอาระเบียและสร้างความสัมพันธ์กับคู่ค้าในภูมิภาค",
+        "en": "Annual event — a key opportunity to explore the Saudi market and build lasting relationships with regional partners"
+      },
+      "certificationNotes": {
+        "th": "จัดโดย Index Creative Village ร่วมกับหน่วยงานพันธมิตร สนใจจองบูธโทร 087-333-5439 | 083-989-6807 | 098-828-7222",
+        "en": "Organised by Index Creative Village and partner organisations. To book a booth: 087-333-5439 | 083-989-6807 | 098-828-7222"
+      }
+    },
+    "contact": {
+      "phone1": "087-333-5439",
+      "phone2": "083-989-6807",
+      "phone3": "098-828-7222",
+      "facebook": "internationalmegafairsaudi"
+    },
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "prod-010",
+    "communityId": "chiangmai-bioveggie",
+    "name": {
+      "th": "ManeeManao น้ำมะนาวคั้นสดแช่แข็ง",
+      "en": "ManeeManao Frozen Lime Juice"
+    },
+    "description": {
+      "th": "น้ำมะนาวคั้นสดแช่แข็งจากบริษัท Chiangmai Bioveggie ผลิตจากมะนาว 100% ไม่ใส่กรดซิตริก ไม่ใส่วัตถุกันเสีย ไม่มีรสขม เก็บได้นานกว่า มาตรฐานสูง เหมาะสำหรับประกอบอาหารและทำเครื่องดื่มทุกประเภท",
+      "en": "Frozen freshly-squeezed lime juice by Chiangmai Bioveggie Co., Ltd. Made from 100% lime with no citric acid, no preservatives, no bitterness, and longer shelf life. High quality certified. Ideal for cooking and all types of beverages."
+    },
+    "category": "food-beverage",
+    "price": {
+      "amount": null,
+      "currency": "THB",
+      "note": {
+        "th": "ติดต่อสอบถามราคาส่งออก",
+        "en": "Contact for export pricing"
+      }
+    },
+    "unit": "pack",
+    "moq": null,
+    "leadTime": null,
+    "materials": {
+      "th": "มะนาวแท้ 100% ไม่มีสารเติมแต่ง ไม่มีกรดซิตริก ไม่มีวัตถุกันเสีย",
+      "en": "100% natural lime — no additives, no citric acid, no preservatives"
+    },
+    "dimensions": null,
+    "weight": null,
+    "certifications": [
+      "DFT Thailand Agricultural Product Innovation",
+      "High Quality Standard"
+    ],
+    "images": [
+      "/images/products/chiangmai-bioveggie/maneemanao-frozen-lime-juice-1.jpg",
+      "/images/products/chiangmai-bioveggie/maneemanao-frozen-lime-juice-2.jpg"
+    ],
+    "localization": {
+      "targetMarkets": [
+        "gcc",
+        "asean",
+        "europe"
+      ],
+      "packaging": {
+        "th": "บรรจุในซองแช่แข็งพร้อมฉลากภาษาอังกฤษ รับรองโดยกรมส่งเสริมการค้าระหว่างประเทศ (DFT) กระทรวงพาณิชย์",
+        "en": "Packed in frozen pouches with English label, endorsed by the Department of Foreign Trade (DFT), Ministry of Commerce, Thailand"
+      },
+      "culturalAdaptation": {
+        "th": "สำหรับตลาด GCC: น้ำมะนาวเป็นส่วนผสมสำคัญในอาหารและเครื่องดื่มอาหรับและเอเชีย ผลิตภัณฑ์ปลอดแอลกอฮอล์ 100% เหมาะกับตลาด Halal",
+        "en": "For GCC market: lime juice is a key ingredient in Arab and Asian cuisine and beverages; 100% alcohol-free and well-suited to Halal markets"
+      },
+      "certificationNotes": {
+        "th": "ผ่านมาตรฐานคุณภาพสูง รับรองโดย DFT ภายใต้โครงการ Thailand Agricultural Product Innovation กระทรวงพาณิชย์",
+        "en": "High quality standard certified by the Department of Foreign Trade (DFT) under the Thailand Agricultural Product Innovation programme, Ministry of Commerce"
+      }
+    },
+    "contact": {
+      "company": "CHIANGMAI BIOVEGGIE CO., LTD.",
+      "address": "438 Moo 7 Leabklongcholpratan Rd., Namprae Hangdong, Chiangmai 50230",
+      "contactPerson": "Viriya Porntaweewat",
+      "phone": "(+66)81 732 2331",
+      "email": "viriyapt@gmail.com",
+      "website": "www.maneemanao.com"
+    },
+    "available": true,
+    "featured": false
+  }
+  ,{
     "id": "prod-001",
     "communityId": "hmong-nan-khun-sathan",
     "name": {
@@ -31,8 +326,8 @@
       "โครงการหลวงขุนสถาน"
     ],
     "images": [
-      "/images/products/hmong-nan-khun-sathan/pumpkin-shoots-1.jpg",
-      "/images/products/hmong-nan-khun-sathan/pumpkin-shoots-2.jpg"
+      "images/products/hmong-nan-khun-sathan/pumpkin-shoots-1.jpg",
+      "images/products/hmong-nan-khun-sathan/pumpkin-shoots-2.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -54,7 +349,7 @@
     },
     "available": true,
     "featured": false,
-    "isPinned": true
+    "isPinned": false
   },
   {
     "id": "prod-002",
@@ -88,8 +383,8 @@
       "Organic Thailand"
     ],
     "images": [
-      "/images/products/hmong-nan-pang-kae/curly-kale-1.jpg",
-      "/images/products/hmong-nan-pang-kae/curly-kale-2.jpg"
+      "images/products/hmong-nan-pang-kae/curly-kale-1.jpg",
+      "images/products/hmong-nan-pang-kae/curly-kale-2.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -145,8 +440,8 @@
       "Organic Thailand"
     ],
     "images": [
-      "/images/products/hmong-nan-pang-kae/mustard-greens-1.jpg",
-      "/images/products/hmong-nan-pang-kae/mustard-greens-2.jpg"
+      "images/products/hmong-nan-pang-kae/mustard-greens-1.jpg",
+      "images/products/hmong-nan-pang-kae/mustard-greens-2.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -202,8 +497,8 @@
       "Organic Thailand"
     ],
     "images": [
-      "/images/products/hmong-nan-pang-kae/green-pumpkin-1.jpg",
-      "/images/products/hmong-nan-pang-kae/green-pumpkin-2.jpg"
+      "images/products/hmong-nan-pang-kae/green-pumpkin-1.jpg",
+      "images/products/hmong-nan-pang-kae/green-pumpkin-2.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -257,9 +552,9 @@
     },
     "certifications": [],
     "images": [
-      "/images/products/mani-phruk-thung-chang/persimmon-1.jpg",
-      "/images/products/mani-phruk-thung-chang/persimmon-2.jpg",
-      "/images/products/mani-phruk-thung-chang/persimmon-3.jpg"
+      "images/products/mani-phruk-thung-chang/persimmon-1.jpg",
+      "images/products/mani-phruk-thung-chang/persimmon-2.jpg",
+      "images/products/mani-phruk-thung-chang/persimmon-3.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -314,8 +609,8 @@
     },
     "certifications": [],
     "images": [
-      "/images/products/mani-phruk-thung-chang/ginger-1.jpg",
-      "/images/products/mani-phruk-thung-chang/ginger-2.jpg"
+      "images/products/mani-phruk-thung-chang/ginger-1.jpg",
+      "images/products/mani-phruk-thung-chang/ginger-2.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -372,8 +667,8 @@
       "โครงการหลวงขุนสถาน"
     ],
     "images": [
-      "/images/products/hmong-nan-khun-sathan/hmong-melon-1.jpg",
-      "/images/products/hmong-nan-khun-sathan/hmong-melon-2.jpg"
+      "images/products/hmong-nan-khun-sathan/hmong-melon-1.jpg",
+      "images/products/hmong-nan-khun-sathan/hmong-melon-2.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -431,9 +726,9 @@
     },
     "certifications": [],
     "images": [
-      "/images/products/mahachai-witthayakom/tote-small-1.jpg",
-      "/images/products/mahachai-witthayakom/tote-small-2.jpg",
-      "/images/products/mahachai-witthayakom/tote-small-3.jpg"
+      "images/products/mahachai-witthayakom/tote-small-1.jpg",
+      "images/products/mahachai-witthayakom/tote-small-2.jpg",
+      "images/products/mahachai-witthayakom/tote-small-3.jpg"
     ],
     "localization": {
       "targetMarkets": [
@@ -492,9 +787,9 @@
     },
     "certifications": [],
     "images": [
-      "/images/products/mahachai-witthayakom/tote-large-1.jpg",
-      "/images/products/mahachai-witthayakom/tote-large-2.jpg",
-      "/images/products/mahachai-witthayakom/tote-large-3.jpg"
+      "images/products/mahachai-witthayakom/tote-large-1.jpg",
+      "images/products/mahachai-witthayakom/tote-large-2.jpg",
+      "images/products/mahachai-witthayakom/tote-large-3.jpg"
     ],
     "localization": {
       "targetMarkets": [

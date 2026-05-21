@@ -51,7 +51,7 @@ export default function Landing() {
     <div className={styles.Landing}>
       {/* Hero */}
       <SplitHero
-        image="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+        image="images/landing/landing.jpg"
         imageAlt="Community products"
         badge="KnowledgeHub CU"
         title={t(content.hero.title)}
@@ -75,7 +75,7 @@ export default function Landing() {
             {t(content.cta.text)}
           </p>
           <div className={styles.CTAActions}>
-            <Link to="/about" className="Button">
+            <Link to="/communities" className="Button">
               {t(content.cta.learnMore)}
             </Link>
           </div>

@@ -95,32 +95,37 @@ set -euo pipefail
 
 echo "--- Remote shell started (action=$ACTION) ---"
 
-# ── Move .env into deploy path ────────────────────────────────
-echo "$REMOTE_SUDO_PASS" | sudo -S mkdir -p "$DEPLOY_PATH"
-echo "$REMOTE_SUDO_PASS" | sudo -S mv /tmp/.env.knowledgehub "$DEPLOY_PATH/.env"
-echo "$REMOTE_SUDO_PASS" | sudo -S chmod 600 "$DEPLOY_PATH/.env"
-
 # ── Step a: Git clone / pull ──────────────────────────────────
 if [[ "$ACTION" == "1" || "$ACTION" == "3" ]]; then
     echo "--- Git: clone or pull ---"
-    if [[ ! -d "$DEPLOY_PATH/.git" ]]; then
-        echo "$REMOTE_SUDO_PASS" | sudo -S git clone \
-            "https://${GITHUB_TOKEN}@${REPO_URL#https://}" \
-            "$DEPLOY_PATH"
-    else
+    if [[ -d "$DEPLOY_PATH/.git" ]]; then
         cd "$DEPLOY_PATH"
         echo "$REMOTE_SUDO_PASS" | sudo -S git fetch --all --prune
         echo "$REMOTE_SUDO_PASS" | sudo -S git reset --hard origin/main
+    else
+        # Remove any leftover non-git directory before cloning
+        echo "$REMOTE_SUDO_PASS" | sudo -S rm -rf "$DEPLOY_PATH"
+        echo "$REMOTE_SUDO_PASS" | sudo -S git clone \
+            "https://${GITHUB_TOKEN}@${REPO_URL#https://}" \
+            "$DEPLOY_PATH"
     fi
 fi
+
+# ── Place .env into deploy path (after git so rm -rf won't delete it) ──
+echo "$REMOTE_SUDO_PASS" | sudo -S mkdir -p "$DEPLOY_PATH"
+echo "$REMOTE_SUDO_PASS" | sudo -S mv /tmp/.env.knowledgehub "$DEPLOY_PATH/.env"
+echo "$REMOTE_SUDO_PASS" | sudo -S chmod 600 "$DEPLOY_PATH/.env"
 
 if [[ "$ACTION" == "3" ]]; then
     echo "--- Git pull complete. Exiting. ---"
     exit 0
 fi
 
+# ── Fix ownership so npm can write without sudo ───────────────
+echo "$REMOTE_SUDO_PASS" | sudo -S chown -R "$(whoami):" "$DEPLOY_PATH"
+
 # ── Step b: React build ───────────────────────────────────────
-echo "--- npm ci + build ---"
+echo "--- npm install + build ---"
 cd "$DEPLOY_PATH/$CLIENT_DIR"
 
 # Load PROD_* vars and re-export without prefix
@@ -131,7 +136,7 @@ fi
 
 export REACT_APP_API_BASE_URL="${PROD_REACT_APP_API_BASE_URL:-}"
 
-npm ci
+npm install --legacy-peer-deps
 npm run build
 
 # ── Step c: Publish build ─────────────────────────────────────
