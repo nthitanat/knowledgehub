@@ -12,11 +12,14 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider = ({ children }) => {
-  // Initialize from localStorage or default to 'en'
-  const [language, setLanguage] = useState(() => {
-    const savedLang = localStorage.getItem('language');
-    return savedLang || 'en';
-  });
+  // Reusable alternative:
+  // const [language, setLanguage] = useState(() => {
+  //   const savedLang = localStorage.getItem('language');
+  //   return savedLang || 'th';
+  // });
+
+  // Force default language to Thai
+  const [language, setLanguage] = useState('th');
 
   // Update localStorage and html lang attribute when language changes
   useEffect(() => {
