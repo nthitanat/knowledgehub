@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useLanguage } from '../../../context/LanguageContext';
 import styles from './SurveyModal.module.scss';
 
@@ -11,7 +11,7 @@ const labels = {
       'แบบสอบถามฉบับนี้มีวัตถุประสงค์เพื่อศึกษาความต้องการจำเป็นในการพัฒนาแพลตฟอร์มชุมชน Chula-Glocalized Community Market เพื่อสนับสนุนผู้ประกอบการชุมชน ผลิตภัณฑ์ท้องถิ่น การประกอบการเพื่อสังคม และการขยายโอกาสสู่ตลาดท้องถิ่นโลก กล่าวคือ จุฬา จะเป็นกลไกการผสมผสานระหว่างคำว่า Globalization (โลกาภิวัตน์) และ Localization (ท้องถิ่นนิยม) หมายถึง กลยุทธ์ที่แบรนด์หรือธุรกิจระดับโลก ปรับเปลี่ยนสินค้า บริการ และการตลาดของตนให้เข้ากับวัฒนธรรม ประเพณี และพฤติกรรมของผู้บริโภคในแต่ละท้องถิ่นได้อย่างกลมกลืน',
     acceptBtn: 'ยอมรับและไปต่อ',
     alreadyBtn: 'เคยกรอกแบบสอบถามแล้ว',
-    surveyNote: 'กรุณากรอกแบบสอบถามให้ครบถ้วนก่อนปิดหน้าต่างนี้',
+    surveyNote: 'กรอกแบบสอบถามให้ครบถ้วน ปุ่ม "เสร็จสิ้น" จะปรากฏเมื่อคุณส่งแบบสอบถามเรียบร้อยแล้ว',
     doneBtn: 'เสร็จสิ้น',
     closeBtn: 'ปิด',
   },
@@ -21,7 +21,7 @@ const labels = {
       'This survey aims to study the needs for developing the Chula-Glocalized Community Market platform to support community entrepreneurs, local products, social enterprise, and expanding opportunities to the global-local market. Chulalongkorn University serves as a mechanism combining Globalization and Localization — a strategy in which global brands and businesses adapt their products, services, and marketing to harmoniously fit each local culture, tradition, and consumer behaviour.',
     acceptBtn: 'Accept & Continue',
     alreadyBtn: 'I already filled the survey',
-    surveyNote: 'Please complete the survey before closing this window.',
+    surveyNote: 'Complete the survey — the "Done" button will appear once you submit.',
     doneBtn: 'Done',
     closeBtn: 'Close',
   },
@@ -40,11 +40,56 @@ export default function SurveyModal({ isOpen, onClose }) {
 
   // step: 'intro' | 'survey'
   const [step, setStep] = useState('intro');
+  // true once we detect the survey has been submitted
+  const [surveyDone, setSurveyDone] = useState(false);
+  const iframeLoadCount = useRef(0);
+  const iframeRef = useRef(null);
 
-  // Reset to intro every time the modal opens
+  // Reset state every time the modal opens
   useEffect(() => {
-    if (isOpen) setStep('intro');
+    if (isOpen) {
+      setStep('intro');
+      setSurveyDone(false);
+      iframeLoadCount.current = 0;
+    }
   }, [isOpen]);
+
+  // Listen for postMessage from SurveyMonkey (explicit completion signal only)
+  const handleMessage = useCallback((e) => {
+    if (!isOpen || step !== 'survey') return;
+    const data = e.data;
+    if (
+      typeof data === 'object' && data !== null &&
+      (data.type === 'survey-complete' || data.surveyCompleted === true)
+    ) {
+      setSurveyDone(true);
+    }
+  }, [isOpen, step]);
+
+  useEffect(() => {
+    window.addEventListener('message', handleMessage);
+    return () => window.removeEventListener('message', handleMessage);
+  }, [handleMessage]);
+
+  // Primary: check iframe URL for 'survey-thanks' (works if same-origin or accessible)
+  // Fallback: load count threshold when URL is cross-origin and unreadable
+  const handleIframeLoad = () => {
+    iframeLoadCount.current += 1;
+
+    try {
+      const href = iframeRef.current?.contentWindow?.location?.href ?? '';
+      if (href && href.includes('survey-thanks')) {
+        setSurveyDone(true);
+        return;
+      }
+    } catch {
+      // Cross-origin — cannot read iframe URL, rely on load count below
+    }
+
+    if (iframeLoadCount.current >= 4) {
+      setSurveyDone(true);
+    }
+  };
 
   // Prevent body scroll while open
   useEffect(() => {
@@ -85,7 +130,11 @@ export default function SurveyModal({ isOpen, onClose }) {
               <button
                 className={styles.AcceptBtn}
                 type="button"
-                onClick={() => setStep('survey')}
+                onClick={() => {
+                  setSurveyDone(false);
+                  iframeLoadCount.current = 0;
+                  setStep('survey');
+                }}
               >
                 <span className="material-symbols-outlined">check_circle</span>
                 {t.acceptBtn}
@@ -112,15 +161,17 @@ export default function SurveyModal({ isOpen, onClose }) {
                 {t.surveyNote}
               </p>
               <div className={styles.SurveyActions}>
-                <button
-                  className={styles.DoneBtn}
-                  type="button"
-                  onClick={onClose}
-                  aria-label={t.doneBtn}
-                >
-                  <span className="material-symbols-outlined">check</span>
-                  {t.doneBtn}
-                </button>
+                {surveyDone && (
+                  <button
+                    className={styles.DoneBtn}
+                    type="button"
+                    onClick={onClose}
+                    aria-label={t.doneBtn}
+                  >
+                    <span className="material-symbols-outlined">check</span>
+                    {t.doneBtn}
+                  </button>
+                )}
                 <button
                   className={styles.SurveyCloseBtn}
                   type="button"
@@ -132,10 +183,12 @@ export default function SurveyModal({ isOpen, onClose }) {
               </div>
             </div>
             <iframe
+              ref={iframeRef}
               className={styles.SurveyFrame}
               src={SURVEY_URL}
               title="Registration Survey"
               allowFullScreen
+              onLoad={handleIframeLoad}
             />
           </div>
         )}
