@@ -62,8 +62,25 @@
   }
 }
 
+@keyframes morphShapeRect {
+  0%, 100% { border-radius: 16px 32px 20px 28px / 28px 16px 32px 20px; }
+  25%       { border-radius: 28px 16px 32px 20px / 16px 28px 20px 32px; }
+  50%       { border-radius: 20px 28px 16px 32px / 32px 20px 28px 16px; }
+  75%       { border-radius: 32px 20px 28px 16px / 20px 32px 16px 28px; }
+}
+
 .heroImageContainer {
   @include organic-image-frame($palette-orange);
+  aspect-ratio: var(--img-aspect, 1);
+  // Rectangular-organic overrides
+  border-radius: 16px 32px 20px 28px / 28px 16px 32px 20px;
+  animation: morphShapeRect 15s ease-in-out infinite;
+
+  img {
+    object-fit: contain;
+    height: auto;
+  }
+
   box-shadow:
     0 20px 60px color-mix(in srgb, var(--pal-p1, #{p1($palette-orange)}) 25%, transparent),
     0 10px 30px color-mix(in srgb, var(--pal-p4, #{p4($palette-orange)}) 15%, transparent),

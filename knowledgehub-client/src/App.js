@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
+import { AuthFlowProvider } from './contexts/AuthFlowContext';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/common/Navbar/Navbar';
 import Footer from './components/common/Footer/Footer';
@@ -17,24 +18,25 @@ function App() {
   return (
     <AuthProvider>
       <LanguageProvider>
-        <Router>
-          <div className="App">
-            <Navbar />
-            <main>
-              <Routes>
-                <Route path="/" element={<Landing />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/communities" element={<Communities />} />
-                <Route path="/communities/:slug" element={<CommunityDetail />} />
-                <Route path="/showroom" element={<Showroom />} />
-                <Route path="/courses" element={<Courses />} />
-                <Route path="/courses/:id" element={<CourseDetail />} />
-                {/* Add more routes as needed */}
-              </Routes>
-            </main>
-            <Footer />
-          </div>
-        </Router>
+        <AuthFlowProvider>
+          <Router>
+            <div className="App">
+              <Navbar />
+              <main>
+                <Routes>
+                  <Route path="/" element={<Landing />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/communities" element={<Communities />} />
+                  <Route path="/communities/:slug" element={<CommunityDetail />} />
+                  <Route path="/showroom" element={<Showroom />} />
+                  <Route path="/courses" element={<Courses />} />
+                  <Route path="/courses/:id" element={<CourseDetail />} />
+                </Routes>
+              </main>
+              <Footer />
+            </div>
+          </Router>
+        </AuthFlowProvider>
       </LanguageProvider>
     </AuthProvider>
   );

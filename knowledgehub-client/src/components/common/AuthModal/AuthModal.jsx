@@ -40,7 +40,7 @@ const labels = {
   },
 };
 
-export default function AuthModal({ isOpen, mode, onClose, onModeChange }) {
+export default function AuthModal({ isOpen, mode, onClose, onModeChange, onLoginSuccess, onRegisterSuccess }) {
   const { login, register, isLoading, error, clearError } = useAuth();
   const { language } = useLanguage();
   const t = labels[language];
@@ -57,14 +57,6 @@ export default function AuthModal({ isOpen, mode, onClose, onModeChange }) {
     clearError();
     setLocalError('');
   }, [isOpen, mode, clearError]);
-
-  // Close on Escape key
-  useEffect(() => {
-    if (!isOpen) return;
-    const handleKey = (e) => { if (e.key === 'Escape') onClose(); };
-    document.addEventListener('keydown', handleKey);
-    return () => document.removeEventListener('keydown', handleKey);
-  }, [isOpen, onClose]);
 
   // Prevent body scroll when modal is open
   useEffect(() => {
@@ -85,8 +77,12 @@ export default function AuthModal({ isOpen, mode, onClose, onModeChange }) {
     setLocalError('');
     const result = await login({ email: loginForm.email, password: loginForm.password });
     if (result.success) {
-      onClose();
       setLoginForm({ email: '', password: '' });
+      if (onLoginSuccess) {
+        onLoginSuccess();
+      } else {
+        onClose();
+      }
     }
   };
 
@@ -102,18 +98,22 @@ export default function AuthModal({ isOpen, mode, onClose, onModeChange }) {
     const { confirmPassword, ...payload } = registerForm;
     const result = await register(payload);
     if (result.success) {
-      onClose();
       setRegisterForm({
         email: '', password: '', confirmPassword: '',
         firstName: '', lastName: '', phoneNumber: '', address: '',
       });
+      if (onRegisterSuccess) {
+        onRegisterSuccess();
+      } else {
+        onClose();
+      }
     }
   };
 
   const displayError = localError || error;
 
   return (
-    <div className={styles.Overlay} onClick={onClose} role="dialog" aria-modal="true">
+    <div className={styles.Overlay} role="dialog" aria-modal="true">
       <div className={styles.Modal} onClick={(e) => e.stopPropagation()}>
 
         {/* Header */}

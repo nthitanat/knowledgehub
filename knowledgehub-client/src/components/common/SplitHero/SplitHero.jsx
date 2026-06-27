@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './SplitHero.module.scss';
 
 /**
@@ -14,6 +14,18 @@ import styles from './SplitHero.module.scss';
  *  - actions    {ReactNode} Buttons / action row rendered below meta
  */
 const SplitHero = ({ image, imageAlt, badge, title, tagline, meta = [], actions, palette }) => {
+  const imageContainerRef = useRef(null);
+
+  const handleImageLoad = (e) => {
+    const { naturalWidth, naturalHeight } = e.target;
+    if (naturalWidth && naturalHeight && imageContainerRef.current) {
+      imageContainerRef.current.style.setProperty(
+        '--img-aspect',
+        `${naturalWidth} / ${naturalHeight}`
+      );
+    }
+  };
+
   const words = title ? title.split(' ') : [];
   const paletteVars = palette ? {
     '--pal-p1': palette.p1, '--pal-p2': palette.p2,
@@ -25,8 +37,8 @@ const SplitHero = ({ image, imageAlt, badge, title, tagline, meta = [], actions,
       <div className={styles.heroSplit}>
         {/* Image Side */}
         <div className={styles.heroImageSide}>
-          <div className={styles.heroImageContainer}>
-            <img src={image} alt={imageAlt} />
+          <div className={styles.heroImageContainer} ref={imageContainerRef}>
+            <img src={image} alt={imageAlt} onLoad={handleImageLoad} />
           </div>
         </div>
 

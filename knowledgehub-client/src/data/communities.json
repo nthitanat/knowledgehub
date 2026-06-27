@@ -1,5 +1,150 @@
 [
   {
+    "id": "chula-glocalized-market-community",
+    "slug": "chula-glocalized-market-community",
+    "name": {
+      "th": "ศูนย์กลางความรู้ตลาดท้องถิ่นโลก",
+      "en": "Chula-Glocalized Market Community"
+    },
+    "tagline": {
+      "th": "เชื่อมภูมิปัญญาท้องถิ่นสู่เวทีโลก ผ่านความรู้ เครือข่าย และนวัตกรรม",
+      "en": "Connecting local wisdom to the global stage through knowledge, networks, and innovation"
+    },
+    "type": "group",
+    "region": "central",
+    "province": "Bangkok",
+    "category": "education",
+    "targetMarkets": [
+      "local",
+      "asean",
+      "europe",
+      "gcc"
+    ],
+    "story": {
+      "th": "ศูนย์กลางความรู้ตลาดท้องถิ่นโลก (Chula-Glocalized Market Community) เป็นโครงการของจุฬาลงกรณ์มหาวิทยาลัย ที่มุ่งสร้างเครือข่ายชุมชนผู้ประกอบการไทยให้สามารถเชื่อมต่อตลาดท้องถิ่นสู่เวทีโลก ผ่านการอบรมเชิงปฏิบัติการ การวิจัย และการสนับสนุนอย่างครบวงจร โดยอาศัยแนวคิด 'Glocalization' — การผสานจุดแข็งของวัฒนธรรมและภูมิปัญญาท้องถิ่นเข้ากับโอกาสในตลาดโลก",
+      "en": "The Chula-Glocalized Market Knowledge Hub is a Chulalongkorn University initiative dedicated to building a community network that empowers Thai entrepreneurs to bridge local markets with the global stage — through workshops, research, and comprehensive support, grounded in the 'Glocalization' concept of combining local cultural strengths with global market opportunities."
+    },
+    "storyDetails": {
+      "th": "แนวคิด Glocalization (Global + Local) คือหัวใจสำคัญของโครงการนี้ — ความเชื่อว่าความสำเร็จในตลาดโลกไม่ได้ต้องแลกมาด้วยการละทิ้งอัตลักษณ์ท้องถิ่น แต่ตรงกันข้าม ความเป็นเอกลักษณ์ของท้องถิ่นคือจุดแข็งที่แท้จริงในตลาดโลก\n\nโครงการนี้ดำเนินการโดยจุฬาลงกรณ์มหาวิทยาลัย ผ่านการวิจัยและพัฒนาโปรแกรมอบรมเชิงปฏิบัติการที่ออกแบบมาเพื่อชุมชนและผู้ประกอบการไทยโดยเฉพาะ โดยมุ่งเน้นการศึกษาความต้องการและการสนับสนุนที่เหมาะสมสำหรับผู้เข้าร่วม เพื่อให้สามารถนำความรู้ไปปรับใช้จริงในบริบทของชุมชนตนเอง\n\nเครือข่ายชุมชนตลาดท้องถิ่นโลกจะเป็นพื้นที่แลกเปลี่ยนความรู้ เชื่อมโยงผู้ประกอบการ นักวิชาการ และชุมชนจากทั่วประเทศไทยให้เรียนรู้ร่วมกัน และเติบโตไปพร้อมกันในตลาดสากล",
+      "en": "The concept of Glocalization (Global + Local) is at the heart of this initiative — the belief that success in global markets does not require abandoning local identity. On the contrary, local uniqueness is the true competitive advantage on the global stage.\n\nThis programme is conducted by Chulalongkorn University through research and the development of workshops specifically designed for Thai communities and entrepreneurs. It focuses on studying the needs and appropriate support for participants, so that knowledge can be practically applied within each community's own context.\n\nThis Glocalized Local Market Community network will serve as a knowledge-sharing platform, connecting entrepreneurs, academics, and communities from across Thailand to learn together and grow together in international markets."
+    },
+    "leader": {
+      "name": {
+        "th": "ทีมวิจัย จุฬาลงกรณ์มหาวิทยาลัย",
+        "en": "Chulalongkorn University Research Team"
+      },
+      "image": "images/communities/chula-glocalized-market-community/leader.jpg",
+      "role": {
+        "th": "ผู้ดำเนินโครงการ",
+        "en": "Programme Coordinators"
+      },
+      "cuAlumni": null,
+      "occupation": {
+        "th": "นักวิจัยและผู้เชี่ยวชาญด้านการตลาดท้องถิ่นโลก",
+        "en": "Researchers & Glocalized Market Specialists"
+      },
+      "graduationYear": null,
+      "faculty": {
+        "th": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "en": "Chulalongkorn University"
+      },
+      "major": null,
+      "cuRelationship": {
+        "researchProjects": [
+          {
+            "th": "การศึกษาความเห็นเกี่ยวกับการจัดการสนับสนุนสำหรับผู้เข้าร่วมอบรมเชิงปฏิบัติการ",
+            "en": "Study on Support Management for Workshop Participants"
+          },
+          {
+            "th": "การสร้างเครือข่ายชุมชนตลาดท้องถิ่นโลก",
+            "en": "Building a Glocalized Local Market Community Network"
+          }
+        ],
+        "advisor": null,
+        "collaborations": [
+          {
+            "th": "โปรแกรมอบรมเชิงปฏิบัติการสำหรับผู้ประกอบการและชุมชนไทยเพื่อเชื่อมตลาดท้องถิ่นสู่ระดับโลก",
+            "en": "Workshop programme for Thai entrepreneurs and communities to connect local markets with the global stage"
+          }
+        ]
+      }
+    },
+    "timeline": [
+      {
+        "year": "2026",
+        "title": {
+          "th": "เปิดรับลงทะเบียน — 27 กรกฎาคม ถึง 1 สิงหาคม 2569",
+          "en": "Registration Open — 27 July to 1 August 2026"
+        },
+        "description": {
+          "th": "เปิดรับสมัครผู้ประกอบการและตัวแทนชุมชนเข้าร่วมโครงการ Chula-Glocalized Market Community กรอกแบบสอบถามเพื่อประเมินความต้องการและยืนยันการเข้าร่วม ก่อนปิดรับสมัครวันที่ 1 สิงหาคม 2569",
+          "en": "Registration open for entrepreneurs and community representatives to join the Chula-Glocalized Market Community programme. Complete the needs-assessment survey to confirm your place before the deadline of 1 August 2026."
+        },
+        "image": "images/communities/chula-glocalized-market-community/timeline-1.jpg"
+      },
+      {
+        "year": "2026",
+        "title": {
+          "th": "Glocalization Workshop — 3–4 สิงหาคม 2569",
+          "en": "Glocalization Workshop — 3–4 August 2026"
+        },
+        "description": {
+          "th": "อบรมเชิงปฏิบัติการเข้มข้น 2 วัน สำหรับผู้ประกอบการและชุมชนที่ผ่านการคัดเลือก เรียนรู้กลยุทธ์ Glocalization ฝึกวิเคราะห์ตลาดท้องถิ่นโลก และสร้างเครือข่ายพันธมิตรข้ามชุมชน จัดโดยจุฬาลงกรณ์มหาวิทยาลัย",
+          "en": "An intensive 2-day workshop for selected entrepreneurs and communities. Participants will learn Glocalization strategies, practise global-local market analysis, and build cross-community partnerships, hosted by Chulalongkorn University."
+        },
+        "image": "images/communities/chula-glocalized-market-community/timeline-2.jpg"
+      }
+    ],
+    "videos": [],
+    "members": [],
+    "image": "images/communities/chula-glocalized-market-community/cover.jpg",
+    "images": [
+      "images/communities/chula-glocalized-market-community/gallery-1.jpg",
+      "images/communities/chula-glocalized-market-community/gallery-2.jpg",
+      "images/communities/chula-glocalized-market-community/gallery-3.jpg"
+    ],
+    "stats": {
+      "members": null,
+      "productsCount": 0,
+      "coursesCount": 0,
+      "establishedYear": 2025
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "facebook": null,
+      "website": null
+    },
+    "link": "https://www.surveymonkey.com/r/GlocalCommunity",
+    "announcements": [
+      {
+        "id": "glocal-workshop-registration-2025",
+        "type": "event_registration",
+        "status": "open",
+        "badge": {
+          "th": "เปิดรับสมัคร",
+          "en": "Registration Open"
+        },
+        "title": {
+          "th": "ลงทะเบียนอบรมเชิงปฏิบัติการ: Chula-Glocalized Market Community",
+          "en": "Register for the Chula-Glocalized Market Community Workshop"
+        },
+        "description": {
+          "th": "เปิดรับสมัครผู้ประกอบการและตัวแทนชุมชนเข้าร่วมอบรมเชิงปฏิบัติการเพื่อสร้างเครือข่ายชุมชนตลาดท้องถิ่นโลก ภายใต้โครงการจุฬาลงกรณ์มหาวิทยาลัย",
+          "en": "Register now for the workshop to build a Glocalized Local Market Community Network — a Chulalongkorn University programme open to entrepreneurs and community representatives."
+        },
+        "registerUrl": "https://www.surveymonkey.com/r/GlocalCommunity",
+        "organizer": {
+          "th": "ศูนย์กลางความรู้ตลาดท้องถิ่นโลก จุฬาลงกรณ์มหาวิทยาลัย",
+          "en": "Chula-Glocalized Market Knowledge Hub, Chulalongkorn University"
+        },
+        "date": null,
+        "location": null
+      }
+    ],
+    "needRegister": 1
+  },
+  {
     "id": "dot-dot-cafe-community",
     "slug": "dot-dot-cafe-community",
     "name": {
@@ -181,7 +326,9 @@
       "email": null,
       "facebook": "https://www.facebook.com/profile.php?id=61586116156707",
       "website": "https://connectthedot.my.canva.site/"
-    }
+    },
+    "link": null,
+    "needRegister": 0
   },
   {
     "id": "toga-thai-trade-innovation",
@@ -353,8 +500,11 @@
       "phone2": "097-465-4955",
       "email": null,
       "facebook": null
-    }
-  },{
+    },
+    "link": null,
+    "needRegister": 0
+  },
+  {
     "id": "hmong-nan-khun-sathan",
     "slug": "hmong-nan-khun-sathan",
     "name": {
@@ -369,7 +519,11 @@
     "region": "north",
     "province": "Nan",
     "category": "mixed",
-    "targetMarkets": ["asean", "europe", "gcc"],
+    "targetMarkets": [
+      "asean",
+      "europe",
+      "gcc"
+    ],
     "story": {
       "th": "ชุมชนชาวม้งบ้านขุนสถาน ตั้งอยู่ในเขตอุทยานแห่งชาติขุนสถาน อำเภอนาน้อย จังหวัดน่าน เป็นชุมชนเก่าแก่อายุกว่า 200 ปี ที่ชาวม้งเข้ามาตั้งถิ่นฐานบริเวณต้นน้ำลำห้วยขุนสถานตั้งแต่ พ.ศ. 2335 ปัจจุบันชุมชนได้พลิกฟื้นจากการทำเกษตรเชิงเดี่ยวที่ใช้สารเคมีเข้มข้น สู่การปลูกพืชในระบบ GAP และเกษตรอินทรีย์ภายใต้โครงการหลวง พร้อมกับสืบทอดงานผ้าปักม้งและวิถีชีวิตบนดอยสูง",
       "en": "The Hmong community of Ban Khun Sathan, nestled within Khun Sathan National Park in Na Noi District, Nan Province, is an ancient settlement over 200 years old. Hmong families first settled at the headwaters of the Khun Sathan stream around 1792. Today the community has transformed from chemical-intensive monocropping into GAP-certified greenhouse farming and certified organic agriculture under the Royal Project, while preserving traditional Hmong embroidery and highland ways of life."
@@ -527,9 +681,18 @@
         },
         "photo": "images/communities/hmong-nan-khun-sathan/member-1.jpg",
         "expertise": [
-          { "th": "การปักผ้าด้วยมือ", "en": "Hand Embroidery" },
-          { "th": "การออกแบบลายปักม้งดั้งเดิม", "en": "Traditional Hmong Pattern Design" },
-          { "th": "การตัดเย็บผ้าและการสืบทอดภูมิปัญญา", "en": "Garment Making and Knowledge Transmission" }
+          {
+            "th": "การปักผ้าด้วยมือ",
+            "en": "Hand Embroidery"
+          },
+          {
+            "th": "การออกแบบลายปักม้งดั้งเดิม",
+            "en": "Traditional Hmong Pattern Design"
+          },
+          {
+            "th": "การตัดเย็บผ้าและการสืบทอดภูมิปัญญา",
+            "en": "Garment Making and Knowledge Transmission"
+          }
         ]
       },
       {
@@ -543,9 +706,18 @@
         },
         "photo": "images/communities/hmong-nan-khun-sathan/member-2.jpg",
         "expertise": [
-          { "th": "การปลูกข้าวดอย (ข้าวนาปี)", "en": "Highland Rice Cultivation" },
-          { "th": "การเลี้ยงไก่ไข่", "en": "Egg-Laying Hen Husbandry" },
-          { "th": "การปรับเปลี่ยนจากเกษตรเคมีสู่อินทรีย์", "en": "Transition from Chemical to Organic Farming" }
+          {
+            "th": "การปลูกข้าวดอย (ข้าวนาปี)",
+            "en": "Highland Rice Cultivation"
+          },
+          {
+            "th": "การเลี้ยงไก่ไข่",
+            "en": "Egg-Laying Hen Husbandry"
+          },
+          {
+            "th": "การปรับเปลี่ยนจากเกษตรเคมีสู่อินทรีย์",
+            "en": "Transition from Chemical to Organic Farming"
+          }
         ]
       },
       {
@@ -559,10 +731,22 @@
         },
         "photo": "images/communities/hmong-nan-khun-sathan/member-3.jpg",
         "expertise": [
-          { "th": "ระบบไฮโดรโปนิกส์และโรงเรือน", "en": "Hydroponics and Greenhouse Systems" },
-          { "th": "เกษตรอินทรีย์ Organic Thailand", "en": "Organic Thailand Certified Farming" },
-          { "th": "นาขั้นบันไดและการอนุรักษ์ดิน", "en": "Terraced Paddies and Soil Conservation" },
-          { "th": "ป่า 3 อย่าง ประโยชน์ 4 อย่าง", "en": "Three Forests, Four Benefits Model" }
+          {
+            "th": "ระบบไฮโดรโปนิกส์และโรงเรือน",
+            "en": "Hydroponics and Greenhouse Systems"
+          },
+          {
+            "th": "เกษตรอินทรีย์ Organic Thailand",
+            "en": "Organic Thailand Certified Farming"
+          },
+          {
+            "th": "นาขั้นบันไดและการอนุรักษ์ดิน",
+            "en": "Terraced Paddies and Soil Conservation"
+          },
+          {
+            "th": "ป่า 3 อย่าง ประโยชน์ 4 อย่าง",
+            "en": "Three Forests, Four Benefits Model"
+          }
         ]
       }
     ],
@@ -585,6 +769,8 @@
       "phone": "+66-XX-XXX-XXXX",
       "email": "hmong.khunsathan@example.com",
       "facebook": "BanKhunSthanXuthyanKhunSthan"
-    }
+    },
+    "link": null,
+    "needRegister": 0
   }
 ]

@@ -2,20 +2,15 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '../../../context/LanguageContext';
 import { useAuth } from '../../../contexts/AuthContext';
-import AuthModal from '../AuthModal/AuthModal';
+import { useAuthFlow } from '../../../contexts/AuthFlowContext';
 import styles from './Navbar.module.scss';
 
 export default function Navbar() {
   const { language, toggleLanguage } = useLanguage();
   const { user, isAuthenticated, logout } = useAuth();
+  const { openLogin, openRegister } = useAuthFlow();
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [authModalOpen, setAuthModalOpen] = useState(false);
-  const [authModalMode, setAuthModalMode] = useState('login');
-
-  const openLogin = () => { setAuthModalMode('login'); setAuthModalOpen(true); };
-  const openRegister = () => { setAuthModalMode('register'); setAuthModalOpen(true); };
-  const closeAuthModal = () => setAuthModalOpen(false);
 
   const navLinks = [
     { path: '/', label: { th: 'หน้าหลัก', en: 'Home' } },
@@ -169,14 +164,6 @@ export default function Navbar() {
       <div
         className={`${styles.Overlay} ${mobileMenuOpen ? styles.open : ''}`}
         onClick={closeMobileMenu}
-      />
-
-      {/* Auth Modal */}
-      <AuthModal
-        isOpen={authModalOpen}
-        mode={authModalMode}
-        onClose={closeAuthModal}
-        onModeChange={setAuthModalMode}
       />
     </>
   );

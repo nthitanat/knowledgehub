@@ -120,15 +120,15 @@ build_and_deploy() {
     APP_DIR="$(client_dir)"
 
     echo "--> Installing dependencies..."
-    remote_exec "cd $APP_DIR && npm ci"
+    remote_exec "cd $APP_DIR && npm install"
 
     echo "--> Building application..."
     remote_exec "cd $APP_DIR && npm run build"
 
     echo "--> Deploying: replacing $SERVER_WWW_PATH/glocal..."
-    remote_exec "mkdir -p $SERVER_WWW_PATH"
-    remote_exec "rm -rf $SERVER_WWW_PATH/glocal"
-    remote_exec "mv $APP_DIR/build $SERVER_WWW_PATH/glocal"
+    remote_exec "echo '$SERVER_PASSWORD' | sudo -S mkdir -p $SERVER_WWW_PATH"
+    remote_exec "echo '$SERVER_PASSWORD' | sudo -S rm -rf $SERVER_WWW_PATH/glocal"
+    remote_exec "echo '$SERVER_PASSWORD' | sudo -S mv $APP_DIR/build $SERVER_WWW_PATH/glocal"
 
     echo "    Deployed to $SERVER_WWW_PATH/glocal"
 }
@@ -157,7 +157,8 @@ cmd_init() {
     CLONE_URL="$(make_clone_url)"
 
     echo "--> Cloning repository to $SERVER_DEPLOY_PATH..."
-    remote_exec "mkdir -p $SERVER_DEPLOY_PATH"
+    remote_exec "echo '$SERVER_PASSWORD' | sudo -S mkdir -p $SERVER_DEPLOY_PATH"
+    remote_exec "echo '$SERVER_PASSWORD' | sudo -S chown $SERVER_USER:$SERVER_USER $SERVER_DEPLOY_PATH"
     remote_exec "git clone --branch $GITHUB_BRANCH $CLONE_URL $SERVER_DEPLOY_PATH"
 
     echo "--> Persisting auth URL in remote origin..."

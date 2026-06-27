@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../../../context/LanguageContext';
+import { useAuth } from '../../../contexts/AuthContext';
+import { useAuthFlow } from '../../../contexts/AuthFlowContext';
 import { getCommunityBySlug } from '../../../api/dataService';
 import Loading from '../Loading/Loading';
 import Timeline from '../Timeline/Timeline';
 import MediaGallery from '../MediaGallery/MediaGallery';
 import FollowButton from '../FollowButton/FollowButton';
 import SplitHero from '../SplitHero/SplitHero';
-import StatsBar from '../StatsBar/StatsBar';
 import TabNav from '../TabNav/TabNav';
 import ProfileCard from '../ProfileCard/ProfileCard';
 import InfoCard from '../InfoCard/InfoCard';
@@ -16,6 +17,8 @@ import styles from './CommunityDetailView.module.scss';
 
 const CommunityDetailView = ({ slug }) => {
   const { language } = useLanguage();
+  const { isAuthenticated } = useAuth();
+  const { openRegister } = useAuthFlow();
   const [community, setCommunity] = useState(null);
   const [products, setProducts] = useState([]);
   const [courses, setCourses] = useState([]);
@@ -71,13 +74,6 @@ const CommunityDetailView = ({ slug }) => {
       : []),
   ];
 
-  const heroStats = [
-    { icon: 'history', value: '200+', label: language === 'th' ? 'ปี' : 'Years' },
-    { icon: 'groups', value: '200', label: language === 'th' ? 'ครัวเรือน' : 'Households' },
-    { icon: 'eco', value: '100%', label: language === 'th' ? 'เกษตรปลอดภัย' : 'Safe Agriculture' },
-    { icon: 'public', value: '3+', label: language === 'th' ? 'ตลาดส่งออก' : 'Export Markets' },
-  ];
-
   const quickInfoItems = [
     { icon: 'location_on', label: language === 'th' ? 'สถานที่' : 'Location', value: community.province },
     { icon: 'category', label: language === 'th' ? 'ประเภท' : 'Category', value: community.category },
@@ -130,6 +126,26 @@ const CommunityDetailView = ({ slug }) => {
               isFollowing={isFollowing}
               onClick={() => setIsFollowing(!isFollowing)}
             />
+            {community.link && (
+              <a
+                href={community.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.linkButton}
+              >
+                <span className="material-symbols-outlined">open_in_new</span>
+                {language === 'th' ? 'เรียนรู้เพิ่มเติม' : 'Learn More'}
+              </a>
+            )}
+            {community.needRegister === 1 && (
+              <button
+                className={styles.registerButton}
+                onClick={() => openRegister()}
+              >
+                <span className="material-symbols-outlined">how_to_reg</span>
+                {language === 'th' ? 'ลงทะเบียน' : 'Register'}
+              </button>
+            )}
             <button className={styles.shareButton}>
               <span className="material-symbols-outlined">share</span>
               {language === 'th' ? 'แชร์' : 'Share'}
@@ -137,9 +153,6 @@ const CommunityDetailView = ({ slug }) => {
           </>
         }
       />
-
-      {/* Stats */}
-      <StatsBar stats={heroStats} />
 
       <div className={styles.container}>
         <div className={styles.contentGrid}>
